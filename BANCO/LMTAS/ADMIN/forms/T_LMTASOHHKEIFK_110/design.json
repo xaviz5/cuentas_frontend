@@ -121,6 +121,8 @@
 							"query": {
 								"$ref": "../../../../LMTAS/ADMIN/queries/Q_CLIEETTE_RL85.json#"
 							},
+							"queryId": "Q_CLIEETTE_RL85",
+							"queryVersion": "1.0.0",
 							"queryViewCustomActions": [
 							],
 							"queryViewId": "QV_DK85_YQT98",

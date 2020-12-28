@@ -1,7 +1,8 @@
 {
 	"LMTAS": {
 		"LBL": {
-			"LBL_LMTAS_INGRESEDC_40413": "Ingrese cedula"
+			"LBL_LMTAS_INGRESEDC_40413": "Ingrese cedula",
+			"LBL_LMTAS_TIPOCUEAA_10036": "Tipo de cuenta"
 		},
 		"MSG": {
 		}

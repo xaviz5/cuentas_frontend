@@ -1,4 +1,23 @@
 {
 	"CNTAS": [
+	],
+	"LMTAS": [
+		{
+			"entities": {
+				"inputEntity": [
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+					{
+						"entityId": "EN_CLIENTEFB_345",
+						"moduleId": "LMTAS",
+						"related": false
+					}
+				]
+			},
+			"idBli": "BLI7566_bli_consultar_cliente",
+			"nameBli": "BLI_consultar_cliente"
+		}
 	]
 }
