@@ -1,11 +1,21 @@
 {
 	"culture": "culture",
 	"metadataVersion": "7.2.0.2020",
-	"moduleId": "CNTAS",
+	"moduleId": "LMTAS",
 	"modules": [
 		{
 			"moduleId": "CNTAS",
 			"moduleName": "CUENTAS",
+			"subModules": [
+				{
+					"subModuleId": "ADMIN",
+					"subModuleName": "ADMIN"
+				}
+			]
+		},
+		{
+			"moduleId": "LMTAS",
+			"moduleName": "CUENTA",
 			"subModules": [
 				{
 					"subModuleId": "ADMIN",

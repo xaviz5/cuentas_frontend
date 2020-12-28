@@ -1,0 +1,9 @@
+{
+	"EN_CLIENTEFB_345": {
+		"queries": {
+			"Q_CLIEETTE_RL85": {
+				"$ref": "../ADMIN/queries/Q_CLIEETTE_RL85.json#"
+			}
+		}
+	}
+}

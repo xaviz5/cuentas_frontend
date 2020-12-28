@@ -1,10 +1,9 @@
 {
-    "CNTAS": {
-        "LBL": {
-
-        },
-        "MSG": {
-
-        }
-    }
+	"CNTAS": {
+		"LBL": {
+			"LBL_CNTAS_INGRESELC_46313": "Ingrese la cedula"
+		},
+		"MSG": {
+		}
+	}
 }

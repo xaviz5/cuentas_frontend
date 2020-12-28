@@ -1,0 +1,9 @@
+{
+	"EN_CLIENTEKY_758": {
+		"queries": {
+			"Q_CLIENETN_CO80": {
+				"$ref": "../ADMIN/queries/Q_CLIENETN_CO80.json#"
+			}
+		}
+	}
+}

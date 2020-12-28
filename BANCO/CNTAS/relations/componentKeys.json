@@ -1,0 +1,21 @@
+{
+	"ADMIN": {
+		"CompositeForms": {
+		},
+		"Forms": {
+		},
+		"Queries": {
+			"Q_CLIENETN_CO80": {
+				"name": "ClienteQuery"
+			}
+		}
+	},
+	"Entities": {
+		"EN_CLIENTEKY_758": {
+			"name": "Cliente"
+		},
+		"EN_FILTROLDB_527": {
+			"name": "Filtro"
+		}
+	}
+}

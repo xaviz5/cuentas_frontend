@@ -1,6 +1,70 @@
 {
-	"Entities": {},
-	"Forms": {},
-	"CompositeForms": {},
-	"Queries": {}
+	"CompositeForms": {
+	},
+	"Entities": {
+		"EN_CLIENTEFB_345": {
+			"labels": [
+			]
+		},
+		"EN_CLIENTEKY_758": {
+			"labels": [
+			]
+		},
+		"EN_FILTROLDB_527": {
+			"labels": [
+			]
+		},
+		"EN_FILTROOAR_450": {
+			"labels": [
+			]
+		}
+	},
+	"Forms": {
+		"T_LMTASOHHKEIFK_110": {
+			"blis": [
+			],
+			"entities": {
+				"EN_CLIENTEFB_345": [
+					"AT16_APELLIOD345",
+					"AT23_CEDULATX345",
+					"AT71_IDCLIEET345",
+					"AT80_NOMBRERX345"
+				],
+				"EN_FILTROOAR_450": [
+					"AT32_NUMCEDYX450"
+				]
+			},
+			"externalEntities": {
+			},
+			"externalQueries": {
+			},
+			"header": [
+			],
+			"labels": [
+				"LBL_LMTAS_INGRESEDC_40413"
+			],
+			"queries": {
+				"Q_CLIEETTE_RL85": [
+					"",
+					"",
+					"QM_CLIEET85TT257_01",
+					"QM_CLIEETL85T874_04",
+					"QM_CLIEETLLTE617_03",
+					"QM_CLIEETRT8L206_02"
+				]
+			},
+			"subForms": [
+			]
+		}
+	},
+	"Queries": {
+		"Q_CLIEETTE_RL85": {
+			"labels": [
+			]
+		},
+		"Q_CLIENETN_CO80": {
+			"labels": [
+			]
+		}
+	}
 }

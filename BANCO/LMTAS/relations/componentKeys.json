@@ -1,0 +1,24 @@
+{
+	"ADMIN": {
+		"CompositeForms": {
+		},
+		"Forms": {
+			"T_LMTASOHHKEIFK_110": {
+				"name": "formConsultarCliente"
+			}
+		},
+		"Queries": {
+			"Q_CLIEETTE_RL85": {
+				"name": "ClienteQuery"
+			}
+		}
+	},
+	"Entities": {
+		"EN_CLIENTEFB_345": {
+			"name": "Cliente"
+		},
+		"EN_FILTROOAR_450": {
+			"name": "Filtro"
+		}
+	}
+}

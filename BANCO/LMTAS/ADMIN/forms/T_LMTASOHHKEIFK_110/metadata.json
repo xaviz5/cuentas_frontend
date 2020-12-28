@@ -1,0 +1,24 @@
+{
+	"entities": [
+		{
+			"entityId": "EN_CLIENTEFB_345",
+			"isContextEntity": null,
+			"moduleId": "LMTAS",
+			"related": false
+		},
+		{
+			"entityId": "EN_FILTROOAR_450",
+			"isContextEntity": null,
+			"moduleId": "LMTAS",
+			"related": false
+		}
+	],
+	"queries": [
+		{
+			"moduleId": "LMTAS",
+			"queryId": "Q_CLIEETTE_RL85",
+			"related": false,
+			"subModuleId": "ADMIN"
+		}
+	]
+}
