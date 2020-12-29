@@ -1,0 +1,168 @@
+{
+	"filename": "D:\\Java\\CapacitacionCMC\\Documentos\\Script_json\\g2_sp_operaciones.sp",
+	"procedure": {
+		"database": "cobis",
+		"name": "g2_sp_operaciones",
+		"owner": "dbo",
+		"parameters": [
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@s_srv"
+			},
+			{
+				"dataType": "int",
+				"direction": "in",
+				"name": "@s_ssn"
+			},
+			{
+				"dataType": "int",
+				"direction": "in",
+				"name": "@s_ssn_branch"
+			},
+			{
+				"dataType": "datetime",
+				"direction": "in",
+				"name": "@s_date"
+			},
+			{
+				"dataType": "smallint",
+				"direction": "in",
+				"name": "@s_ofi"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@s_user"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@s_lsrv"
+			},
+			{
+				"dataType": "smallint",
+				"direction": "in",
+				"name": "@s_rol"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@s_term"
+			},
+			{
+				"dataType": "char",
+				"direction": "in",
+				"name": "@s_org"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@s_culture"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@t_file"
+			},
+			{
+				"dataType": "char",
+				"direction": "in",
+				"name": "@i_operacion"
+			},
+			{
+				"dataType": "int",
+				"direction": "in",
+				"name": "@t_trn"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@i_nro_cuenta"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@i_nro_cuenta_destino"
+			},
+			{
+				"dataType": "decimal",
+				"direction": "in",
+				"name": "@i_cantidad"
+			},
+			{
+				"dataType": "char",
+				"direction": "in",
+				"name": "@i_tipo_cuenta"
+			},
+			{
+				"dataType": "char",
+				"direction": "in",
+				"name": "@i_tipo_cuenta_destino"
+			}
+		],
+		"queries": [
+			{
+				"_idQuery": "fe8389aa-a74f-4fad-9669-a367afd902da",
+				"columns": [
+					"{0}",
+					"{1}",
+					"{2}",
+					"{3}",
+					"{4}",
+					"tipo_cuenta"
+				],
+				"editMode": false,
+				"queryText": "SELECT ca_banco,\r\n\t\t\t       ca_saldo,\r\n\t\t\t       cl_cedula,\r\n\t\t\t       cl_nombre,\r\n\t\t\t       cl_apellido,\r\n\t\t\t       \u0027A\u0027 AS tipo_cuenta\r\n\t\t \tFROM"
+			},
+			{
+				"_idQuery": "ce1bd4a5-1faa-4fc7-be5e-124bc34c69af",
+				"columns": [
+					"{0}",
+					"{1}",
+					"{2}",
+					"{3}",
+					"{4}",
+					"tipo_cuenta"
+				],
+				"editMode": false,
+				"queryText": "SELECT cc_banco,\r\n\t\t\t       cc_saldo,\r\n\t\t\t       cl_cedula,\r\n\t\t\t       cl_nombre,\r\n\t\t\t       cl_apellido,\r\n\t\t\t       \u0027C\u0027 AS tipo_cuenta\r\n\t\t \tFROM"
+			},
+			{
+				"_idQuery": "61d946c9-634e-40ac-ac75-b214b0cedb70",
+				"columns": [
+					"apellido",
+					"nombre",
+					"tipo",
+					"numero",
+					"cedula",
+					"saldo"
+				],
+				"editMode": true,
+				"queryText": "SELECT"
+			}
+		],
+		"variables": [
+			{
+				"dataType": "int",
+				"name": "@cod_cliente"
+			},
+			{
+				"dataType": "decimal",
+				"name": "@saldo_anterior"
+			},
+			{
+				"dataType": "decimal",
+				"name": "@saldo_destino"
+			},
+			{
+				"dataType": "int",
+				"name": "@w_error"
+			},
+			{
+				"dataType": "int",
+				"name": "@w_result_cuenta"
+			}
+		]
+	}
+}

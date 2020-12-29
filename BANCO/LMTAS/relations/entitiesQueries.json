@@ -5,5 +5,12 @@
 				"$ref": "../ADMIN/queries/Q_CLIEETTE_RL85.json#"
 			}
 		}
+	},
+	"EN_CUENTAQAV_729": {
+		"queries": {
+			"Q_CUENTTTT_UU91": {
+				"$ref": "../ADMIN/queries/Q_CUENTTTT_UU91.json#"
+			}
+		}
 	}
 }

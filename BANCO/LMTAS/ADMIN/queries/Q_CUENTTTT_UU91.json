@@ -1,0 +1,181 @@
+{
+	"customEvents": [
+		{
+			"customEventId": "CEQY_130_Q_CUENTTTT_UU91_391",
+			"customizationLayer": 0,
+			"customizationLayerDescription": "ECU",
+			"enabled": "T",
+			"eventActions": [
+				{
+					"actionArgs": [
+					],
+					"actionId": "BLI6804_bli_cons_cuenta",
+					"actionType": "BLI"
+				},
+				{
+					"actionArgs": [
+					],
+					"actionId": "CUSTOM",
+					"actionType": "CUSTOM"
+				}
+			],
+			"executionType": 7,
+			"queryEventType": {
+				"availableExecutionType": 7,
+				"description": "Sobreescribe la ejecuci\u00f3n de un Query",
+				"eventId": 130,
+				"name": "ExecuteQuery"
+			}
+		}
+	],
+	"customizationLayer": 0,
+	"customizationLayerDescription": "ECU",
+	"hasEvents": true,
+	"id": {
+		"queryId": "Q_CUENTTTT_UU91",
+		"version": "1.0.0"
+	},
+	"isAutomatic": false,
+	"isImported": false,
+	"mainEntityId": "EN_CUENTAQAV_729",
+	"mainEntityModule": "LMTAS",
+	"mainEntityName": {
+		"$ref": "../../../LMTAS/relations/componentKeys.json#/Entities/EN_CUENTAQAV_729/name"
+	},
+	"mainEntityVersion": "1.0.0",
+	"name": {
+		"$ref": "../../../LMTAS/relations/componentKeys.json#/ADMIN/Queries/Q_CUENTTTT_UU91/name"
+	},
+	"queryMembers": [
+		{
+			"alias": "apellidoCliente",
+			"attribute": {
+				"$ref": "../../../LMTAS/entities/EN_CUENTAQAV_729.json#/attributes/AT75_APELLINO729"
+			},
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 1,
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_CUENT99UU1116_03",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		},
+		{
+			"alias": "nombreCliente",
+			"attribute": {
+				"$ref": "../../../LMTAS/entities/EN_CUENTAQAV_729.json#/attributes/AT75_NOMBREEE729"
+			},
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 2,
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_CUENTT9UTT483_04",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		},
+		{
+			"alias": "tipoCuenta",
+			"attribute": {
+				"$ref": "../../../LMTAS/entities/EN_CUENTAQAV_729.json#/attributes/AT94_TIPOCUTE729"
+			},
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 3,
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_CUENTTT9U1761_05",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		},
+		{
+			"alias": "numeroCuenta",
+			"attribute": {
+				"$ref": "../../../LMTAS/entities/EN_CUENTAQAV_729.json#/attributes/AT52_NUMEROEE729"
+			},
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 4,
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_CUENTTTT1U901_02",
+			"select": true,
+			"selectStr": "T",
+			"where": true,
+			"whereStr": "T"
+		},
+		{
+			"alias": "cedulaCliente",
+			"attribute": {
+				"$ref": "../../../LMTAS/entities/EN_CUENTAQAV_729.json#/attributes/AT50_CEDULAIE729"
+			},
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 5,
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_CUENTTTU9U840_01",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		},
+		{
+			"alias": "saldo",
+			"attribute": {
+				"$ref": "../../../LMTAS/entities/EN_CUENTAQAV_729.json#/attributes/AT96_SALDOYWV729"
+			},
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 6,
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_CUENTTUUUT512_06",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		}
+	],
+	"related": false,
+	"sqlWhere": null,
+	"subModules": [
+		{
+			"id": {
+				"moduleId": "LMTAS",
+				"subModuleId": "ADMIN"
+			}
+		}
+	]
+}

@@ -1,4 +1,23 @@
 {
 	"CNTAS": [
+	],
+	"LMTAS": [
+		{
+			"entities": {
+				"inputEntity": [
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+					{
+						"entityId": "EN_CUENTAQAV_729",
+						"moduleId": "LMTAS",
+						"related": false
+					}
+				]
+			},
+			"idBli": "BLI6804_bli_cons_cuenta",
+			"nameBli": "BLI_cons_cuenta"
+		}
 	]
 }

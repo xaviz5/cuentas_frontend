@@ -1,7 +1,14 @@
 {
 	"LMTAS": {
 		"LBL": {
-			"LBL_LMTAS_INGRESEDC_40413": "Ingrese cedula"
+			"LBL_LMTAS_APELLIDOO_32201": "Apellido",
+			"LBL_LMTAS_CDULAWDTQ_45285": "C\u00e9dula",
+			"LBL_LMTAS_INGRESEDC_40413": "Ingrese cedula",
+			"LBL_LMTAS_NMEROCUEA_74571": "N\u00famero de Cuenta",
+			"LBL_LMTAS_NOMBREBWM_14938": "Nombre",
+			"LBL_LMTAS_NOMBRENOU_73559": "Nombre",
+			"LBL_LMTAS_SALDONKSA_71731": "Saldo",
+			"LBL_LMTAS_TIPOCUETT_60172": "Tipo de Cuenta"
 		},
 		"MSG": {
 		}

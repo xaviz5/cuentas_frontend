@@ -3,6 +3,9 @@
 		"CompositeForms": {
 		},
 		"Forms": {
+			"T_LMTASAKZGEIDK_766": {
+				"name": "formRetiro"
+			},
 			"T_LMTASOHHKEIFK_110": {
 				"name": "formConsultarCliente"
 			}
@@ -10,12 +13,18 @@
 		"Queries": {
 			"Q_CLIEETTE_RL85": {
 				"name": "ClienteQuery"
+			},
+			"Q_CUENTTTT_UU91": {
+				"name": "CuentaQueryRetiro"
 			}
 		}
 	},
 	"Entities": {
 		"EN_CLIENTEFB_345": {
 			"name": "Cliente"
+		},
+		"EN_CUENTAAXX_999": {
+			"name": "CuentaAux"
 		},
 		"EN_CUENTAQAV_729": {
 			"name": "Cuenta"

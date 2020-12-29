@@ -10,6 +10,10 @@
 			"labels": [
 			]
 		},
+		"EN_CUENTAAXX_999": {
+			"labels": [
+			]
+		},
 		"EN_CUENTAQAV_729": {
 			"labels": [
 			]
@@ -24,6 +28,47 @@
 		}
 	},
 	"Forms": {
+		"T_LMTASAKZGEIDK_766": {
+			"blis": [
+				"BLI6804_bli_cons_cuenta"
+			],
+			"entities": {
+				"EN_CUENTAAXX_999": [
+					"AT85_NUMERONU999"
+				],
+				"EN_CUENTAQAV_729": [
+					"AT50_CEDULAIE729",
+					"AT52_NUMEROEE729",
+					"AT75_APELLINO729",
+					"AT75_NOMBREEE729",
+					"AT94_TIPOCUTE729",
+					"AT96_SALDOYWV729"
+				]
+			},
+			"externalEntities": {
+			},
+			"externalQueries": {
+			},
+			"header": [
+			],
+			"labels": [
+				"LBL_LMTAS_NMEROCUEA_74571"
+			],
+			"queries": {
+				"Q_CUENTTTT_UU91": [
+					"",
+					"",
+					"QM_CUENT99UU1116_03",
+					"QM_CUENTT9UTT483_04",
+					"QM_CUENTTT9U1761_05",
+					"QM_CUENTTTT1U901_02",
+					"QM_CUENTTTU9U840_01",
+					"QM_CUENTTUUUT512_06"
+				]
+			},
+			"subForms": [
+			]
+		},
 		"T_LMTASOHHKEIFK_110": {
 			"blis": [
 			],
@@ -67,6 +112,10 @@
 			]
 		},
 		"Q_CLIENETN_CO80": {
+			"labels": [
+			]
+		},
+		"Q_CUENTTTT_UU91": {
 			"labels": [
 			]
 		}

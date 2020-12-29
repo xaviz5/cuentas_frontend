@@ -1,0 +1,32 @@
+[
+	{
+		"attributeName": "",
+		"controlId": "Q_CUENTTTT_UU91",
+		"controlName": "CuentaQueryRetiro",
+		"controlType": "Query",
+		"customEvents": [
+			{
+				"eventName": "executeQuery",
+				"executionType": {
+					"$ref": "../../../../../LMTAS/ADMIN/queries/Q_CUENTTTT_UU91.json#/customEvents"
+				}
+			}
+		],
+		"entityName": "Cuenta",
+		"eventsType": "queryEventType"
+	},
+	{
+		"attributeName": "",
+		"controlId": "VA_VAIMAGEBUTTONNN_333391",
+		"controlName": "VA_VAIMAGEBUTTONNN_333391",
+		"controlType": "ImageButton",
+		"customEvents": [
+			{
+				"eventName": "executeCommand",
+				"executionType": 7
+			}
+		],
+		"entityName": "CuentaAux",
+		"eventsType": "visualAttributeEventType"
+	}
+]

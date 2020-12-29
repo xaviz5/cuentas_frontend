@@ -1,0 +1,129 @@
+{
+	"databaseType": "Sybase",
+	"inputEntity": [
+	],
+	"inputParameters": [
+		{
+			"attributeId": "",
+			"bddType": "char",
+			"dataType": "CHAR",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@i_operacion",
+			"type": "CONSTANT",
+			"value": "S"
+		},
+		{
+			"attributeId": "",
+			"bddType": "int",
+			"dataType": "INT",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@t_trn",
+			"type": "CONSTANT",
+			"value": "20210"
+		},
+		{
+			"attributeId": "",
+			"bddType": "varchar",
+			"dataType": "VARCHAR",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@i_nro_cuenta",
+			"type": "CUSTOM",
+			"value": "numCuenta"
+		}
+	],
+	"name": "BLI_cons_cuenta",
+	"outputEntity": [
+	],
+	"outputParameters": [
+	],
+	"patternId": "BLI6804_bli_cons_cuenta",
+	"patternName": "BLI_cons_cuenta",
+	"patternType": "Bli",
+	"queries": [
+		{
+			"_idQuery": "61d946c9-634e-40ac-ac75-b214b0cedb70",
+			"isMapReturn": true,
+			"isReturn": true,
+			"isSingleResult": false,
+			"numberQuery": 3,
+			"queryName": "SELECT"
+		}
+	],
+	"resultSets": [
+		{
+			"_idQuery": "61d946c9-634e-40ac-ac75-b214b0cedb70",
+			"columns": [
+				{
+					"attributeId": "AT75_APELLINO729",
+					"entityId": "EN_CUENTAQAV_729",
+					"format": "",
+					"name": "apellido",
+					"position": 1,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT75_NOMBREEE729",
+					"entityId": "EN_CUENTAQAV_729",
+					"format": "",
+					"name": "nombre",
+					"position": 2,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT94_TIPOCUTE729",
+					"entityId": "EN_CUENTAQAV_729",
+					"format": "",
+					"name": "tipo",
+					"position": 3,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT52_NUMEROEE729",
+					"entityId": "EN_CUENTAQAV_729",
+					"format": "",
+					"name": "numero",
+					"position": 4,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT50_CEDULAIE729",
+					"entityId": "EN_CUENTAQAV_729",
+					"format": "",
+					"name": "cedula",
+					"position": 5,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT96_SALDOYWV729",
+					"entityId": "EN_CUENTAQAV_729",
+					"format": "",
+					"name": "saldo",
+					"position": 6,
+					"type": "ATTRIBUTE"
+				}
+			],
+			"number": 1,
+			"singleResult": false
+		}
+	],
+	"returnEntity": [
+		{
+			"entityId": "EN_CUENTAQAV_729",
+			"module": {
+				"moduleId": "LMTAS",
+				"moduleName": "CUENTA"
+			},
+			"name": "Cuenta"
+		}
+	],
+	"serverName": "CENTRAL",
+	"serviceID": "cobis.g2_sp_operaciones",
+	"type": "SP",
+	"typeMapping": "MAPJava"
+}
