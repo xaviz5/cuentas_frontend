@@ -1,7 +1,16 @@
 {
 	"LMTAS": {
 		"LBL": {
-			"LBL_LMTAS_INGRESEDC_40413": "Ingrese cedula"
+			"LBL_LMTAS_CODIGOCEE_66259": "Codigo cliente",
+			"LBL_LMTAS_CREARCUAT_48009": "Crear cuenta de ahorros",
+			"LBL_LMTAS_CREARCUNT_30250": "Crear cuenta",
+			"LBL_LMTAS_CREARCURT_32412": "Crear cuenta corriente",
+			"LBL_LMTAS_IDXSJREXP_90783": "id",
+			"LBL_LMTAS_INGRESEDC_40413": "Ingrese cedula",
+			"LBL_LMTAS_NOMBRETHS_64544": "nombre",
+			"LBL_LMTAS_SALDOINIA_28635": "Saldo inicial",
+			"LBL_LMTAS_SELECCIAT_14730": "Seleccione el tipo de cuenta",
+			"LBL_LMTAS_TIPOCUEAA_10036": "Tipo de cuenta"
 		},
 		"MSG": {
 		}

@@ -1,0 +1,123 @@
+{
+	"filename": "D:\\CapacitacionCMC\\SQL\\taller\\g2_sp_cuenta_corriente.sp",
+	"procedure": {
+		"database": "cobis",
+		"name": "g2_sp_cuenta_corriente",
+		"owner": "dbo",
+		"parameters": [
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@s_srv"
+			},
+			{
+				"dataType": "int",
+				"direction": "in",
+				"name": "@s_ssn"
+			},
+			{
+				"dataType": "int",
+				"direction": "in",
+				"name": "@s_ssn_branch"
+			},
+			{
+				"dataType": "datetime",
+				"direction": "in",
+				"name": "@s_date"
+			},
+			{
+				"dataType": "smallint",
+				"direction": "in",
+				"name": "@s_ofi"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@s_user"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@s_lsrv"
+			},
+			{
+				"dataType": "smallint",
+				"direction": "in",
+				"name": "@s_rol"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@s_term"
+			},
+			{
+				"dataType": "char",
+				"direction": "in",
+				"name": "@s_org"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@s_culture"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@t_file"
+			},
+			{
+				"dataType": "char",
+				"direction": "in",
+				"name": "@i_operacion"
+			},
+			{
+				"dataType": "int",
+				"direction": "in",
+				"name": "@t_trn"
+			},
+			{
+				"dataType": "int",
+				"direction": "in",
+				"name": "@i_cc_cliente"
+			},
+			{
+				"dataType": "decimal",
+				"direction": "in",
+				"name": "@i_cc_saldo"
+			}
+		],
+		"queries": [
+			{
+				"_idQuery": "872ef9ea-d37d-4973-8eda-89e2f9aa4d0d",
+				"columns": [
+					"idCliente",
+					"saldo"
+				],
+				"editMode": false,
+				"queryText": "SELECT"
+			}
+		],
+		"variables": [
+			{
+				"dataType": "float",
+				"name": "@NumeroDesde"
+			},
+			{
+				"dataType": "float",
+				"name": "@NumeroHasta"
+			},
+			{
+				"dataType": "varchar",
+				"name": "@w_cc_banco"
+			},
+			{
+				"dataType": "float",
+				"name": "@w_numero"
+			},
+			{
+				"dataType": "varchar",
+				"name": "@w_sp_name"
+			}
+		]
+	}
+}

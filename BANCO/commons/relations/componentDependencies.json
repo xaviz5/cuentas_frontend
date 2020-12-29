@@ -2,6 +2,10 @@
 	"CompositeForms": {
 	},
 	"Entities": {
+		"EN_1YUEZEUCZ_136": {
+			"labels": [
+			]
+		},
 		"EN_CLIENTEFB_345": {
 			"labels": [
 			]
@@ -26,8 +30,14 @@
 	"Forms": {
 		"T_LMTASOHHKEIFK_110": {
 			"blis": [
+				"BLI1630_bli_insert_ahorros",
+				"BLI8593_bli_insert_corriente"
 			],
 			"entities": {
+				"EN_1YUEZEUCZ_136": [
+					"AT18_TIPOCUET136",
+					"AT48_SALDOAWP136"
+				],
 				"EN_CLIENTEFB_345": [
 					"AT16_APELLIOD345",
 					"AT23_CEDULATX345",
@@ -45,10 +55,16 @@
 			"header": [
 			],
 			"labels": [
-				"LBL_LMTAS_INGRESEDC_40413"
+				"LBL_LMTAS_CREARCUAT_48009",
+				"LBL_LMTAS_CREARCURT_32412",
+				"LBL_LMTAS_INGRESEDC_40413",
+				"LBL_LMTAS_SALDOINIA_28635",
+				"LBL_LMTAS_TIPOCUEAA_10036"
 			],
 			"queries": {
 				"Q_CLIEETTE_RL85": [
+					"",
+					"",
 					"",
 					"",
 					"QM_CLIEET85TT257_01",

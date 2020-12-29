@@ -1,4 +1,57 @@
 {
 	"CNTAS": [
+	],
+	"LMTAS": [
+		{
+			"entities": {
+				"inputEntity": [
+					{
+						"entityId": "EN_1YUEZEUCZ_136",
+						"moduleId": "LMTAS",
+						"related": false
+					}
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+				]
+			},
+			"idBli": "BLI1630_bli_insert_ahorros",
+			"nameBli": "BLI_insert_ahorros"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+					{
+						"entityId": "EN_CLIENTEFB_345",
+						"moduleId": "LMTAS",
+						"related": false
+					}
+				]
+			},
+			"idBli": "BLI7566_bli_consultar_cliente",
+			"nameBli": "BLI_consultar_cliente"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+					{
+						"entityId": "EN_1YUEZEUCZ_136",
+						"moduleId": "LMTAS",
+						"related": false
+					}
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+				]
+			},
+			"idBli": "BLI8593_bli_insert_corriente",
+			"nameBli": "BLI_insert_corriente"
+		}
 	]
 }

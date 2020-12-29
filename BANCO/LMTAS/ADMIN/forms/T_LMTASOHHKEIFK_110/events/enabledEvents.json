@@ -14,5 +14,89 @@
 		],
 		"entityName": "Cliente",
 		"eventsType": "queryEventType"
+	},
+	{
+		"attributeName": "",
+		"controlId": "QV_DK85_YQT98",
+		"controlName": "QV_DK85_YQT98",
+		"controlType": "",
+		"customEvents": [
+			{
+				"eventName": "rowSelecting",
+				"executionType": 1
+			}
+		],
+		"entityName": "Cliente",
+		"eventsType": "queryViewEventType"
+	},
+	{
+		"attributeName": "tipoCuenta",
+		"controlId": "VA_1RDGUOVTNTZPKDK_138991",
+		"controlName": "tipoCuenta",
+		"controlType": "ComboBox",
+		"customEvents": [
+			{
+				"eventName": "change",
+				"executionType": 1
+			}
+		],
+		"entityName": "CuentaAhorCorri",
+		"eventsType": "visualAttributeEventType"
+	},
+	{
+		"attributeName": "saldo",
+		"controlId": "VA_2ELHXMWOKGQCBGL_893991",
+		"controlName": "saldo",
+		"controlType": "TextInputBox",
+		"customEvents": [
+			{
+				"eventName": "change",
+				"executionType": 1
+			}
+		],
+		"entityName": "CuentaAhorCorri",
+		"eventsType": "visualAttributeEventType"
+	},
+	{
+		"attributeName": "",
+		"controlId": "VA_VABUTTONKNHAHWZ_479991",
+		"controlName": "VA_VABUTTONKNHAHWZ_479991",
+		"controlType": "Button",
+		"customEvents": [
+			{
+				"eventName": "executeCommand",
+				"executionType": 7
+			}
+		],
+		"entityName": "CuentaAhorCorri",
+		"eventsType": "visualAttributeEventType"
+	},
+	{
+		"attributeName": "",
+		"controlId": "VA_VABUTTONNTTFTXU_845991",
+		"controlName": "VA_VABUTTONNTTFTXU_845991",
+		"controlType": "Button",
+		"customEvents": [
+			{
+				"eventName": "executeCommand",
+				"executionType": 7
+			}
+		],
+		"entityName": "CuentaAhorCorri",
+		"eventsType": "visualAttributeEventType"
+	},
+	{
+		"attributeName": "",
+		"controlId": "VC_RCLIENTEEZ_328110",
+		"controlName": "",
+		"controlType": "",
+		"customEvents": [
+			{
+				"eventName": "render",
+				"executionType": 1
+			}
+		],
+		"entityName": "",
+		"eventsType": "viewContainerEventType"
 	}
 ]

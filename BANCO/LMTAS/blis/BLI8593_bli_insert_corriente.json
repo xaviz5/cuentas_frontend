@@ -1,0 +1,77 @@
+{
+	"databaseType": "Sybase",
+	"inputEntity": [
+		{
+			"entityId": "EN_1YUEZEUCZ_136",
+			"module": {
+				"moduleId": "LMTAS",
+				"moduleName": "CUENTA"
+			},
+			"name": "CuentaAhorCorri"
+		}
+	],
+	"inputParameters": [
+		{
+			"attributeId": "",
+			"bddType": "char",
+			"dataType": "CHAR",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@i_operacion",
+			"type": "CONSTANT",
+			"value": "I"
+		},
+		{
+			"attributeId": "",
+			"bddType": "int",
+			"dataType": "INT",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@t_trn",
+			"type": "CONSTANT",
+			"value": "2022"
+		},
+		{
+			"attributeId": "AT97_IDCLIENN136",
+			"bddType": "int",
+			"dataType": "INT",
+			"direction": "in",
+			"entityId": "EN_1YUEZEUCZ_136",
+			"format": "",
+			"name": "@i_cc_cliente",
+			"type": "ATTRIBUTE",
+			"value": ""
+		},
+		{
+			"attributeId": "AT48_SALDOAWP136",
+			"bddType": "decimal",
+			"dataType": "MONEY",
+			"direction": "in",
+			"entityId": "EN_1YUEZEUCZ_136",
+			"format": "",
+			"name": "@i_cc_saldo",
+			"type": "ATTRIBUTE",
+			"value": ""
+		}
+	],
+	"name": "BLI_insert_corriente",
+	"outputEntity": [
+	],
+	"outputParameters": [
+	],
+	"patternId": "BLI8593_bli_insert_corriente",
+	"patternName": "BLI_insert_corriente",
+	"patternType": "Bli",
+	"queries": [
+	],
+	"resultSets": [
+	],
+	"returnEntity": [
+	],
+	"serverName": "CENTRAL",
+	"serviceID": "cobis.g2_sp_cuenta_corriente",
+	"type": "SP",
+	"typeMapping": "MAPJava"
+}
