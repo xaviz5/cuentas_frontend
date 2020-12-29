@@ -5,7 +5,7 @@
 		"forms": {
 			"LMTAS": [
 				{
-					"generated": 0,
+					"generated": 2,
 					"moduleId": "LMTAS",
 					"name": "formConsultarCliente",
 					"subModuleId": "ADMIN",

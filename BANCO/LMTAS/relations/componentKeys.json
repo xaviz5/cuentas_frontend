@@ -14,6 +14,9 @@
 		}
 	},
 	"Entities": {
+		"EN_1YUEZEUCZ_136": {
+			"name": "CuentaAhorCorri"
+		},
 		"EN_CLIENTEFB_345": {
 			"name": "Cliente"
 		},
