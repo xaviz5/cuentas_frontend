@@ -1,0 +1,142 @@
+{
+	"filename": "C:\\Users\\JUAN S GOMEZ URIBE\\Documents\\CapacitacionCMC\\Stored Procedures\\SP Taller\\cobis.g2_sp_operaciones.sp",
+	"procedure": {
+		"database": "cobis",
+		"name": "g2_sp_operaciones",
+		"owner": "dbo",
+		"parameters": [
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@s_srv"
+			},
+			{
+				"dataType": "int",
+				"direction": "in",
+				"name": "@s_ssn"
+			},
+			{
+				"dataType": "int",
+				"direction": "in",
+				"name": "@s_ssn_branch"
+			},
+			{
+				"dataType": "datetime",
+				"direction": "in",
+				"name": "@s_date"
+			},
+			{
+				"dataType": "smallint",
+				"direction": "in",
+				"name": "@s_ofi"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@s_user"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@s_lsrv"
+			},
+			{
+				"dataType": "smallint",
+				"direction": "in",
+				"name": "@s_rol"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@s_term"
+			},
+			{
+				"dataType": "char",
+				"direction": "in",
+				"name": "@s_org"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@s_culture"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@t_file"
+			},
+			{
+				"dataType": "char",
+				"direction": "in",
+				"name": "@i_operacion"
+			},
+			{
+				"dataType": "int",
+				"direction": "in",
+				"name": "@t_trn"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@i_nro_cuenta"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@i_nro_cuenta_destino"
+			},
+			{
+				"dataType": "decimal",
+				"direction": "in",
+				"name": "@i_cantidad"
+			},
+			{
+				"dataType": "char",
+				"direction": "in",
+				"name": "@i_tipo_cuenta"
+			},
+			{
+				"dataType": "char",
+				"direction": "in",
+				"name": "@i_tipo_cuenta_destino"
+			}
+		],
+		"queries": [
+			{
+				"_idQuery": "5a75ce0f-801e-41f4-8653-0682d104f1d1",
+				"columns": [
+					"Numero Cuenta",
+					"Saldo",
+					"Cedula Cliente",
+					"Nombre Cliente",
+					"Apellido Cliente",
+					"Tipo Cuenta"
+				],
+				"editMode": true,
+				"queryText": "SELECT"
+			}
+		],
+		"variables": [
+			{
+				"dataType": "int",
+				"name": "@cod_cliente"
+			},
+			{
+				"dataType": "decimal",
+				"name": "@saldo_anterior"
+			},
+			{
+				"dataType": "decimal",
+				"name": "@saldo_destino"
+			},
+			{
+				"dataType": "int",
+				"name": "@w_error"
+			},
+			{
+				"dataType": "int",
+				"name": "@w_result_cuenta"
+			}
+		]
+	}
+}

@@ -1,0 +1,1176 @@
+{
+	"autoCrudStr": "F",
+	"cobisPattern": "None",
+	"cobisPatternId": 0,
+	"commands": [
+	],
+	"customEvents": [
+	],
+	"customizationLayer": 0,
+	"customizationLayerDescription": "ECU",
+	"graphicSupportStr": "F",
+	"header": null,
+	"id": {
+		"moduleId": "LMTAS",
+		"subModuleId": "ADMIN",
+		"taskId": "T_LMTASEVHBCGPM_229",
+		"version": "1.0.0"
+	},
+	"isCustomized": false,
+	"isImported": false,
+	"mainViewContainerId": "VC_TRANSFERCE_405229",
+	"modeEnabled": 4095,
+	"name": {
+		"$ref": "../../../../LMTAS/relations/componentKeys.json#/ADMIN/Forms/T_LMTASEVHBCGPM_229/name"
+	},
+	"setFocus": false,
+	"tempSaveStr": "F",
+	"viewContainers": [
+		{
+			"breadcrumbs": "Automatic",
+			"collapsedStr": "F",
+			"colSpan": 1,
+			"columnsNum": 1,
+			"componentStyle": null,
+			"customEvents": [
+				{
+					"customEventId": "CEVC_008T_LMTASEVHBCGPM_229_802",
+					"customizationLayer": 0,
+					"customizationLayerDescription": "ECU",
+					"enabled": "T",
+					"eventActions": [
+					],
+					"executionType": 1,
+					"filter": null,
+					"isEnabled": true,
+					"viewContainerEventType": {
+						"availableExecutionType": 1,
+						"description": "Se ejecuta antes de renderizar un ViewContainer, permite realizar personalizaciones visuales",
+						"eventId": 8,
+						"name": "Render"
+					}
+				}
+			],
+			"customizationLayer": 0,
+			"customizationLayerDescription": "ECU",
+			"enabled": 4095,
+			"id": {
+				"moduleId": "LMTAS",
+				"subModuleId": "ADMIN",
+				"taskId": "T_LMTASEVHBCGPM_229",
+				"taskVersion": "1.0.0",
+				"viewContainerId": "VC_TRANSFERCE_405229"
+			},
+			"isCustomized": false,
+			"layoutType": "Group",
+			"name": "formTransferenciaCuenta",
+			"options": 0,
+			"responsiveLayouts": null,
+			"responsivity": false,
+			"style": null,
+			"view": {
+				"groups": [
+					{
+						"collapsedStr": "F",
+						"colSpan": 1,
+						"columnsNum": 2,
+						"componentStyle": null,
+						"customEvents": [
+						],
+						"enabled": 4095,
+						"eventType": 0,
+						"groupId": "G_TRANSFECCC_243827",
+						"groups": [
+							{
+								"collapsedStr": "F",
+								"colSpan": 1,
+								"columnsNum": 1,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"enabled": 4095,
+								"entity": {
+									"$ref": "../../../../LMTAS/entities/EN_CUENTAQAV_729.json#"
+								},
+								"eventType": 0,
+								"groupId": "G_TRANSFEEEA_805827",
+								"htmlSection": "F",
+								"independentValidation": "F",
+								"isCustomized": false,
+								"layoutType": "Group",
+								"name": "Group1521",
+								"order": 1,
+								"orientation": "V",
+								"parentLayoutType": "GroupLayout",
+								"queryView": {
+									"actionDesign": "Button",
+									"actions": [
+									],
+									"allowPaging": false,
+									"allowPagingStr": "F",
+									"allowSorting": false,
+									"allowSortingStr": "F",
+									"autoSync": null,
+									"componentStyle": null,
+									"confirmRowDeletion": false,
+									"confirmRowDeletionStr": "F",
+									"customEvents": [
+									],
+									"customizationLayer": 0,
+									"customizationLayerDescription": "ECU",
+									"customUrlDialog": null,
+									"deleteCommandEnabled": false,
+									"deleteCommandEnabledStr": "F",
+									"dialogTitleLabelId": null,
+									"editCommandEnabled": false,
+									"editCommandEnabledStr": "F",
+									"editMode": "0",
+									"entityName": {
+										"$ref": "../../../../LMTAS/entities/EN_CUENTAQAV_729.json#/name"
+									},
+									"hasDetail": false,
+									"hasDetailString": "F",
+									"height": null,
+									"includeQueryMembers": [
+										"AT50_CEDULAIE729",
+										"AT75_NOMBREEE729",
+										"AT75_APELLINO729",
+										"AT94_TIPOCUTE729",
+										"AT52_NUMEROEE729",
+										"AT96_SALDOYWV729"
+									],
+									"insertCommandEnabled": false,
+									"insertCommandEnabledStr": "F",
+									"isCustomized": false,
+									"modalSize": null,
+									"modeSelection": "None",
+									"moduleIdDialog": null,
+									"multiSelectEnabledStr": "F",
+									"name": "QV_IF82_CHK80",
+									"options": 0,
+									"pageSize": null,
+									"query": {
+										"$ref": "../../../../LMTAS/ADMIN/queries/Q_CUENTAAA_CS82.json#"
+									},
+									"queryId": "Q_CUENTAAA_CS82",
+									"queryVersion": "1.0.0",
+									"queryViewCustomActions": [
+									],
+									"queryViewId": "QV_IF82_CHK80",
+									"queryViewType": "Grid",
+									"rowCommandAppearance": 0,
+									"style": null,
+									"subModuleIdDialog": null,
+									"taskIdDialog": null,
+									"taskVersionDialog": null,
+									"typeFormDialog": null,
+									"userControl": {
+										"customizationLayer": 0,
+										"customizationLayerDescription": "ECU",
+										"description": "Designer Grid",
+										"name": "Designer Grid",
+										"type": "I",
+										"userControlId": "Grid"
+									},
+									"viewContainerIdDialog": null
+								},
+								"queryViewId": "QV_IF82_CHK80",
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"style": null,
+								"visible": 4095,
+								"visualAttributes": [
+									{
+										"aggregate": null,
+										"aggregateId": null,
+										"attribute": {
+											"$ref": "../../../../LMTAS/entities/EN_CUENTAQAV_729.json#/attributes/AT94_TIPOCUTE729"
+										},
+										"attributeValidations": [
+										],
+										"colSpan": 1,
+										"componentInGrid": true,
+										"componentStyle": null,
+										"customEvents": [
+										],
+										"customizationLayer": 0,
+										"customizationLayerDescription": "ECU",
+										"enabled": 4095,
+										"include": 4095,
+										"isCustomized": false,
+										"maxRecords": null,
+										"name": "tipoCuenta",
+										"options": 0,
+										"order": 4,
+										"readOnly": 8,
+										"responsiveLayouts": null,
+										"responsivity": false,
+										"sizeWidthComposite": null,
+										"style": null,
+										"textRows": 0,
+										"userControl": {
+											"type": "I",
+											"userControlId": "TextInputBox"
+										},
+										"visible": 4095,
+										"visualAttributeId": "VA_TEXTINPUTBOXEOG_761827",
+										"width": null,
+										"widthComposite": "D"
+									},
+									{
+										"aggregate": null,
+										"aggregateId": null,
+										"attribute": {
+											"$ref": "../../../../LMTAS/entities/EN_CUENTAQAV_729.json#/attributes/AT50_CEDULAIE729"
+										},
+										"attributeValidations": [
+										],
+										"colSpan": 1,
+										"componentInGrid": true,
+										"componentStyle": null,
+										"customEvents": [
+										],
+										"customizationLayer": 0,
+										"customizationLayerDescription": "ECU",
+										"enabled": 4095,
+										"include": 4095,
+										"isCustomized": false,
+										"maxRecords": null,
+										"name": "cedulaCliente",
+										"options": 0,
+										"order": 1,
+										"readOnly": 8,
+										"responsiveLayouts": null,
+										"responsivity": false,
+										"sizeWidthComposite": null,
+										"style": null,
+										"textRows": 0,
+										"userControl": {
+											"type": "I",
+											"userControlId": "TextInputBox"
+										},
+										"visible": 4095,
+										"visualAttributeId": "VA_TEXTINPUTBOXODQ_289827",
+										"width": null,
+										"widthComposite": "D"
+									},
+									{
+										"aggregate": null,
+										"aggregateId": null,
+										"attribute": {
+											"$ref": "../../../../LMTAS/entities/EN_CUENTAQAV_729.json#/attributes/AT75_NOMBREEE729"
+										},
+										"attributeValidations": [
+										],
+										"colSpan": 1,
+										"componentInGrid": true,
+										"componentStyle": null,
+										"customEvents": [
+										],
+										"customizationLayer": 0,
+										"customizationLayerDescription": "ECU",
+										"enabled": 4095,
+										"include": 4095,
+										"isCustomized": false,
+										"maxRecords": null,
+										"name": "nombreCliente",
+										"options": 0,
+										"order": 2,
+										"readOnly": 8,
+										"responsiveLayouts": null,
+										"responsivity": false,
+										"sizeWidthComposite": null,
+										"style": null,
+										"textRows": 0,
+										"userControl": {
+											"type": "I",
+											"userControlId": "TextInputBox"
+										},
+										"visible": 4095,
+										"visualAttributeId": "VA_TEXTINPUTBOXQWU_377827",
+										"width": null,
+										"widthComposite": "D"
+									},
+									{
+										"aggregate": null,
+										"aggregateId": null,
+										"attribute": {
+											"$ref": "../../../../LMTAS/entities/EN_CUENTAQAV_729.json#/attributes/AT96_SALDOYWV729"
+										},
+										"attributeValidations": [
+										],
+										"colSpan": 1,
+										"componentInGrid": true,
+										"componentStyle": null,
+										"customEvents": [
+										],
+										"customizationLayer": 0,
+										"customizationLayerDescription": "ECU",
+										"enabled": 4095,
+										"include": 4095,
+										"isCustomized": false,
+										"maxRecords": null,
+										"name": "saldo",
+										"options": 0,
+										"order": 6,
+										"readOnly": 8,
+										"responsiveLayouts": null,
+										"responsivity": false,
+										"sizeWidthComposite": null,
+										"style": null,
+										"textRows": 0,
+										"userControl": {
+											"type": "I",
+											"userControlId": "TextInputBox"
+										},
+										"visible": 4095,
+										"visualAttributeId": "VA_TEXTINPUTBOXTDU_644827",
+										"width": null,
+										"widthComposite": "D"
+									},
+									{
+										"aggregate": null,
+										"aggregateId": null,
+										"attribute": {
+											"$ref": "../../../../LMTAS/entities/EN_CUENTAQAV_729.json#/attributes/AT75_APELLINO729"
+										},
+										"attributeValidations": [
+										],
+										"colSpan": 1,
+										"componentInGrid": true,
+										"componentStyle": null,
+										"customEvents": [
+										],
+										"customizationLayer": 0,
+										"customizationLayerDescription": "ECU",
+										"enabled": 4095,
+										"include": 4095,
+										"isCustomized": false,
+										"maxRecords": null,
+										"name": "apellidoCliente",
+										"options": 0,
+										"order": 3,
+										"readOnly": 8,
+										"responsiveLayouts": null,
+										"responsivity": false,
+										"sizeWidthComposite": null,
+										"style": null,
+										"textRows": 0,
+										"userControl": {
+											"type": "I",
+											"userControlId": "TextInputBox"
+										},
+										"visible": 4095,
+										"visualAttributeId": "VA_TEXTINPUTBOXWCT_373827",
+										"width": null,
+										"widthComposite": "D"
+									},
+									{
+										"aggregate": null,
+										"aggregateId": null,
+										"attribute": {
+											"$ref": "../../../../LMTAS/entities/EN_CUENTAQAV_729.json#/attributes/AT52_NUMEROEE729"
+										},
+										"attributeValidations": [
+										],
+										"colSpan": 1,
+										"componentInGrid": true,
+										"componentStyle": null,
+										"customEvents": [
+										],
+										"customizationLayer": 0,
+										"customizationLayerDescription": "ECU",
+										"enabled": 4095,
+										"include": 4095,
+										"isCustomized": false,
+										"maxRecords": null,
+										"name": "numeroCuenta",
+										"options": 0,
+										"order": 5,
+										"readOnly": 8,
+										"responsiveLayouts": null,
+										"responsivity": false,
+										"sizeWidthComposite": null,
+										"style": null,
+										"textRows": 0,
+										"userControl": {
+											"type": "I",
+											"userControlId": "TextInputBox"
+										},
+										"visible": 4095,
+										"visualAttributeId": "VA_TEXTINPUTBOXXVN_979827",
+										"width": null,
+										"widthComposite": "D"
+									}
+								]
+							},
+							{
+								"collapsedStr": "F",
+								"colSpan": 1,
+								"columnsNum": 1,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"enabled": 4095,
+								"entity": {
+									"$ref": "../../../../LMTAS/entities/EN_CUENTADSE_217.json#"
+								},
+								"eventType": 0,
+								"groupId": "G_TRANSFECIN_387827",
+								"htmlSection": "F",
+								"independentValidation": "F",
+								"isCustomized": false,
+								"layoutType": "Group",
+								"name": "Group2655",
+								"order": 2,
+								"orientation": "V",
+								"parentLayoutType": "GroupLayout",
+								"queryView": {
+									"actionDesign": "Button",
+									"actions": [
+									],
+									"allowPaging": false,
+									"allowPagingStr": "F",
+									"allowSorting": false,
+									"allowSortingStr": "F",
+									"autoSync": null,
+									"componentStyle": null,
+									"confirmRowDeletion": false,
+									"confirmRowDeletionStr": "F",
+									"customEvents": [
+									],
+									"customizationLayer": 0,
+									"customizationLayerDescription": "ECU",
+									"customUrlDialog": null,
+									"deleteCommandEnabled": false,
+									"deleteCommandEnabledStr": "F",
+									"dialogTitleLabelId": null,
+									"editCommandEnabled": false,
+									"editCommandEnabledStr": "F",
+									"editMode": "0",
+									"entityName": {
+										"$ref": "../../../../LMTAS/entities/EN_CUENTADSE_217.json#/name"
+									},
+									"hasDetail": false,
+									"hasDetailString": "F",
+									"height": null,
+									"includeQueryMembers": [
+										"AT40_CEDULANI217",
+										"AT99_NOMBRENN217",
+										"AT84_APELLIDO217",
+										"AT54_TIPOCUEE217",
+										"AT57_NUMERONN217",
+										"AT92_SALDOJLF217"
+									],
+									"insertCommandEnabled": false,
+									"insertCommandEnabledStr": "F",
+									"isCustomized": false,
+									"modalSize": null,
+									"modeSelection": "None",
+									"moduleIdDialog": null,
+									"multiSelectEnabledStr": "F",
+									"name": "QV_VL85_YPM30",
+									"options": 0,
+									"pageSize": null,
+									"query": {
+										"$ref": "../../../../LMTAS/ADMIN/queries/Q_CUENEESN_JN85.json#"
+									},
+									"queryId": "Q_CUENEESN_JN85",
+									"queryVersion": "1.0.0",
+									"queryViewCustomActions": [
+									],
+									"queryViewId": "QV_VL85_YPM30",
+									"queryViewType": "Grid",
+									"rowCommandAppearance": 0,
+									"style": null,
+									"subModuleIdDialog": null,
+									"taskIdDialog": null,
+									"taskVersionDialog": null,
+									"typeFormDialog": null,
+									"userControl": {
+										"customizationLayer": 0,
+										"customizationLayerDescription": "ECU",
+										"description": "Designer Grid",
+										"name": "Designer Grid",
+										"type": "I",
+										"userControlId": "Grid"
+									},
+									"viewContainerIdDialog": null
+								},
+								"queryViewId": "QV_VL85_YPM30",
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"style": null,
+								"visible": 4095,
+								"visualAttributes": [
+									{
+										"aggregate": null,
+										"aggregateId": null,
+										"attribute": {
+											"$ref": "../../../../LMTAS/entities/EN_CUENTADSE_217.json#/attributes/AT99_NOMBRENN217"
+										},
+										"attributeValidations": [
+										],
+										"colSpan": 1,
+										"componentInGrid": true,
+										"componentStyle": null,
+										"customEvents": [
+										],
+										"customizationLayer": 0,
+										"customizationLayerDescription": "ECU",
+										"enabled": 4095,
+										"include": 4095,
+										"isCustomized": false,
+										"maxRecords": null,
+										"name": "nombreCliente",
+										"options": 0,
+										"order": 2,
+										"readOnly": 8,
+										"responsiveLayouts": null,
+										"responsivity": false,
+										"sizeWidthComposite": null,
+										"style": null,
+										"textRows": 0,
+										"userControl": {
+											"type": "I",
+											"userControlId": "TextInputBox"
+										},
+										"visible": 4095,
+										"visualAttributeId": "VA_TEXTINPUTBOXKIZ_125827",
+										"width": null,
+										"widthComposite": "D"
+									},
+									{
+										"aggregate": null,
+										"aggregateId": null,
+										"attribute": {
+											"$ref": "../../../../LMTAS/entities/EN_CUENTADSE_217.json#/attributes/AT57_NUMERONN217"
+										},
+										"attributeValidations": [
+										],
+										"colSpan": 1,
+										"componentInGrid": true,
+										"componentStyle": null,
+										"customEvents": [
+										],
+										"customizationLayer": 0,
+										"customizationLayerDescription": "ECU",
+										"enabled": 4095,
+										"include": 4095,
+										"isCustomized": false,
+										"maxRecords": null,
+										"name": "numeroCuenta",
+										"options": 0,
+										"order": 5,
+										"readOnly": 8,
+										"responsiveLayouts": null,
+										"responsivity": false,
+										"sizeWidthComposite": null,
+										"style": null,
+										"textRows": 0,
+										"userControl": {
+											"type": "I",
+											"userControlId": "TextInputBox"
+										},
+										"visible": 4095,
+										"visualAttributeId": "VA_TEXTINPUTBOXMGP_671827",
+										"width": null,
+										"widthComposite": "D"
+									},
+									{
+										"aggregate": null,
+										"aggregateId": null,
+										"attribute": {
+											"$ref": "../../../../LMTAS/entities/EN_CUENTADSE_217.json#/attributes/AT54_TIPOCUEE217"
+										},
+										"attributeValidations": [
+										],
+										"colSpan": 1,
+										"componentInGrid": true,
+										"componentStyle": null,
+										"customEvents": [
+										],
+										"customizationLayer": 0,
+										"customizationLayerDescription": "ECU",
+										"enabled": 4095,
+										"include": 4095,
+										"isCustomized": false,
+										"maxRecords": null,
+										"name": "tipoCuenta",
+										"options": 0,
+										"order": 4,
+										"readOnly": 8,
+										"responsiveLayouts": null,
+										"responsivity": false,
+										"sizeWidthComposite": null,
+										"style": null,
+										"textRows": 0,
+										"userControl": {
+											"type": "I",
+											"userControlId": "TextInputBox"
+										},
+										"visible": 4095,
+										"visualAttributeId": "VA_TEXTINPUTBOXQAH_755827",
+										"width": null,
+										"widthComposite": "D"
+									},
+									{
+										"aggregate": null,
+										"aggregateId": null,
+										"attribute": {
+											"$ref": "../../../../LMTAS/entities/EN_CUENTADSE_217.json#/attributes/AT92_SALDOJLF217"
+										},
+										"attributeValidations": [
+										],
+										"colSpan": 1,
+										"componentInGrid": true,
+										"componentStyle": null,
+										"customEvents": [
+										],
+										"customizationLayer": 0,
+										"customizationLayerDescription": "ECU",
+										"enabled": 4095,
+										"include": 4095,
+										"isCustomized": false,
+										"maxRecords": null,
+										"name": "saldo",
+										"options": 0,
+										"order": 6,
+										"readOnly": 8,
+										"responsiveLayouts": null,
+										"responsivity": false,
+										"sizeWidthComposite": null,
+										"style": null,
+										"textRows": 0,
+										"userControl": {
+											"type": "I",
+											"userControlId": "TextInputBox"
+										},
+										"visible": 4095,
+										"visualAttributeId": "VA_TEXTINPUTBOXWTI_478827",
+										"width": null,
+										"widthComposite": "D"
+									},
+									{
+										"aggregate": null,
+										"aggregateId": null,
+										"attribute": {
+											"$ref": "../../../../LMTAS/entities/EN_CUENTADSE_217.json#/attributes/AT40_CEDULANI217"
+										},
+										"attributeValidations": [
+										],
+										"colSpan": 1,
+										"componentInGrid": true,
+										"componentStyle": null,
+										"customEvents": [
+										],
+										"customizationLayer": 0,
+										"customizationLayerDescription": "ECU",
+										"enabled": 4095,
+										"include": 4095,
+										"isCustomized": false,
+										"maxRecords": null,
+										"name": "cedulaCliente",
+										"options": 0,
+										"order": 1,
+										"readOnly": 8,
+										"responsiveLayouts": null,
+										"responsivity": false,
+										"sizeWidthComposite": null,
+										"style": null,
+										"textRows": 0,
+										"userControl": {
+											"type": "I",
+											"userControlId": "TextInputBox"
+										},
+										"visible": 4095,
+										"visualAttributeId": "VA_TEXTINPUTBOXXUK_585827",
+										"width": null,
+										"widthComposite": "D"
+									},
+									{
+										"aggregate": null,
+										"aggregateId": null,
+										"attribute": {
+											"$ref": "../../../../LMTAS/entities/EN_CUENTADSE_217.json#/attributes/AT84_APELLIDO217"
+										},
+										"attributeValidations": [
+										],
+										"colSpan": 1,
+										"componentInGrid": true,
+										"componentStyle": null,
+										"customEvents": [
+										],
+										"customizationLayer": 0,
+										"customizationLayerDescription": "ECU",
+										"enabled": 4095,
+										"include": 4095,
+										"isCustomized": false,
+										"maxRecords": null,
+										"name": "apellidoCliente",
+										"options": 0,
+										"order": 3,
+										"readOnly": 8,
+										"responsiveLayouts": null,
+										"responsivity": false,
+										"sizeWidthComposite": null,
+										"style": null,
+										"textRows": 0,
+										"userControl": {
+											"type": "I",
+											"userControlId": "TextInputBox"
+										},
+										"visible": 4095,
+										"visualAttributeId": "VA_TEXTINPUTBOXZUY_431827",
+										"width": null,
+										"widthComposite": "D"
+									}
+								]
+							}
+						],
+						"isCustomized": false,
+						"layoutType": "GroupLayout",
+						"name": "GroupLayout1850",
+						"order": 2,
+						"style": null,
+						"visible": 4095
+					},
+					{
+						"collapsedStr": "F",
+						"colSpan": 1,
+						"columnsNum": 3,
+						"componentStyle": null,
+						"customEvents": [
+						],
+						"enabled": 4095,
+						"entity": {
+							"$ref": "../../../../LMTAS/entities/EN_TRANSFERR_695.json#"
+						},
+						"eventType": 0,
+						"groupId": "G_TRANSFEIEN_514827",
+						"htmlSection": "F",
+						"independentValidation": "F",
+						"isCustomized": false,
+						"layoutType": "Group",
+						"name": "Group1611",
+						"order": 3,
+						"orientation": "V",
+						"responsiveLayouts": null,
+						"responsivity": false,
+						"style": null,
+						"visible": 4095,
+						"visualAttributes": [
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../LMTAS/entities/EN_TRANSFERR_695.json#/attributes/AT71_CANTIDDD695"
+								},
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": false,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"format": "",
+								"include": 4095,
+								"isCustomized": false,
+								"label": {
+									"defaultValue": {
+										"$ref": "../../../../LMTAS/assets/languages/LMTAS.json#/LMTAS/LBL/LBL_LMTAS_CANTIDAIS_48056"
+									},
+									"labelId": "LBL_LMTAS_CANTIDAIS_48056",
+									"moduleId": "LMTAS"
+								},
+								"maxRecords": null,
+								"name": "cantidad",
+								"options": 0,
+								"order": 1,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"textRows": 0,
+								"userControl": {
+									"type": "I",
+									"userControlId": "TextInputBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_CANTIDADSLHRTSR_486827",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": false,
+								"componentStyle": null,
+								"customEvents": [
+									{
+										"customEventId": "CEVA_010VA_VAIMAGEBUTTONNN_604827_119",
+										"customizationLayer": 0,
+										"customizationLayerDescription": "ECU",
+										"enabled": "T",
+										"eventActions": [
+											{
+												"actionArgs": [
+												],
+												"actionId": "CUSTOM",
+												"actionType": "CUSTOM"
+											},
+											{
+												"actionArgs": [
+												],
+												"actionId": "BLI4856_bli_transferenciacuenta",
+												"actionType": "BLI",
+												"controlId": "VA_VAIMAGEBUTTONNN_604827"
+											}
+										],
+										"executionType": 7,
+										"filter": null,
+										"isEnabled": true,
+										"visualAttributeEventType": {
+											"availableExecutionType": 7,
+											"description": "Permite personalizar la acci\u00f3n a ejecutar de un command o de un ActionControl",
+											"eventId": 10,
+											"name": "ExecuteCommand"
+										}
+									}
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"entityQuery": null,
+								"imageId": "fa fa-share",
+								"include": 4095,
+								"isCustomized": false,
+								"maxRecords": null,
+								"name": "VA_VAIMAGEBUTTONNN_604827",
+								"options": 0,
+								"order": 2,
+								"queryModule": null,
+								"queryVersion": null,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"userControl": {
+									"type": "A",
+									"userControlId": "ImageButton"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_VAIMAGEBUTTONNN_604827",
+								"width": null,
+								"widthComposite": "D"
+							}
+						]
+					},
+					{
+						"collapsedStr": "F",
+						"colSpan": 1,
+						"columnsNum": 2,
+						"componentStyle": null,
+						"customEvents": [
+						],
+						"enabled": 4095,
+						"eventType": 0,
+						"groupId": "G_TRANSFENRN_564827",
+						"groups": [
+							{
+								"collapsedStr": "F",
+								"colSpan": 1,
+								"columnsNum": 2,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"enabled": 4095,
+								"entity": {
+									"$ref": "../../../../LMTAS/entities/EN_FILTROCTE_501.json#"
+								},
+								"eventType": 0,
+								"groupId": "G_TRANSFEUIR_900827",
+								"htmlSection": "F",
+								"independentValidation": "F",
+								"isCustomized": false,
+								"layoutType": "Group",
+								"name": "Group2905",
+								"order": 1,
+								"orientation": "V",
+								"parentLayoutType": "GroupLayout",
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"style": null,
+								"visible": 4095,
+								"visualAttributes": [
+									{
+										"aggregate": null,
+										"aggregateId": null,
+										"attribute": {
+											"$ref": "../../../../LMTAS/entities/EN_FILTROCTE_501.json#/attributes/AT96_NUMEROTE501"
+										},
+										"attributeValidations": [
+										],
+										"colSpan": 1,
+										"componentInGrid": false,
+										"componentStyle": null,
+										"customEvents": [
+										],
+										"customizationLayer": 0,
+										"customizationLayerDescription": "ECU",
+										"enabled": 4095,
+										"format": "",
+										"include": 4095,
+										"isCustomized": false,
+										"label": {
+											"defaultValue": {
+												"$ref": "../../../../LMTAS/assets/languages/LMTAS.json#/LMTAS/LBL/LBL_LMTAS_CUENTAOIE_32713"
+											},
+											"labelId": "LBL_LMTAS_CUENTAOIE_32713",
+											"moduleId": "LMTAS"
+										},
+										"maxRecords": null,
+										"name": "numeroCuenta",
+										"options": 0,
+										"order": 1,
+										"readOnly": 8,
+										"responsiveLayouts": null,
+										"responsivity": false,
+										"sizeWidthComposite": null,
+										"style": null,
+										"textRows": 0,
+										"userControl": {
+											"type": "I",
+											"userControlId": "TextInputBox"
+										},
+										"visible": 4095,
+										"visualAttributeId": "VA_NUMEROCUENTADXH_212827",
+										"width": null,
+										"widthComposite": "D"
+									},
+									{
+										"aggregate": null,
+										"aggregateId": null,
+										"attributeValidations": [
+										],
+										"colSpan": 1,
+										"componentInGrid": false,
+										"componentStyle": null,
+										"customEvents": [
+											{
+												"customEventId": "CEVA_010VA_VAIMAGEBUTTONNN_543827_615",
+												"customizationLayer": 0,
+												"customizationLayerDescription": "ECU",
+												"enabled": "T",
+												"eventActions": [
+													{
+														"actionArgs": [
+														],
+														"actionId": "CUSTOM",
+														"actionType": "CUSTOM"
+													}
+												],
+												"executionType": 7,
+												"filter": null,
+												"isEnabled": true,
+												"visualAttributeEventType": {
+													"availableExecutionType": 7,
+													"description": "Permite personalizar la acci\u00f3n a ejecutar de un command o de un ActionControl",
+													"eventId": 10,
+													"name": "ExecuteCommand"
+												}
+											}
+										],
+										"customizationLayer": 0,
+										"customizationLayerDescription": "ECU",
+										"enabled": 4095,
+										"entityQuery": "EN_CUENTAQAV_729",
+										"imageId": "fa fa-search",
+										"include": 4095,
+										"isCustomized": false,
+										"maxRecords": null,
+										"name": "VA_VAIMAGEBUTTONNN_543827",
+										"options": 0,
+										"order": 2,
+										"queryId": "Q_CUENTAAA_CS82",
+										"queryModule": "LMTAS",
+										"queryVersion": "1.0.0",
+										"responsiveLayouts": null,
+										"responsivity": false,
+										"sizeWidthComposite": null,
+										"style": null,
+										"userControl": {
+											"type": "A",
+											"userControlId": "ImageButton"
+										},
+										"visible": 4095,
+										"visualAttributeId": "VA_VAIMAGEBUTTONNN_543827",
+										"width": null,
+										"widthComposite": "D"
+									}
+								]
+							},
+							{
+								"collapsedStr": "F",
+								"colSpan": 1,
+								"columnsNum": 2,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"enabled": 4095,
+								"entity": {
+									"$ref": "../../../../LMTAS/entities/EN_FILTROCEN_157.json#"
+								},
+								"eventType": 0,
+								"groupId": "G_TRANSFENAN_754827",
+								"htmlSection": "F",
+								"independentValidation": "F",
+								"isCustomized": false,
+								"layoutType": "Group",
+								"name": "Group2683",
+								"order": 2,
+								"orientation": "V",
+								"parentLayoutType": "GroupLayout",
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"style": null,
+								"visible": 4095,
+								"visualAttributes": [
+									{
+										"aggregate": null,
+										"aggregateId": null,
+										"attribute": {
+											"$ref": "../../../../LMTAS/entities/EN_FILTROCEN_157.json#/attributes/AT85_NUMCUEOO157"
+										},
+										"attributeValidations": [
+										],
+										"colSpan": 1,
+										"componentInGrid": false,
+										"componentStyle": null,
+										"customEvents": [
+										],
+										"customizationLayer": 0,
+										"customizationLayerDescription": "ECU",
+										"enabled": 4095,
+										"format": "",
+										"include": 4095,
+										"isCustomized": false,
+										"label": {
+											"defaultValue": {
+												"$ref": "../../../../LMTAS/assets/languages/LMTAS.json#/LMTAS/LBL/LBL_LMTAS_CUENTADNO_11667"
+											},
+											"labelId": "LBL_LMTAS_CUENTADNO_11667",
+											"moduleId": "LMTAS"
+										},
+										"maxRecords": null,
+										"name": "numCuentaDestino",
+										"options": 0,
+										"order": 1,
+										"readOnly": 8,
+										"responsiveLayouts": null,
+										"responsivity": false,
+										"sizeWidthComposite": null,
+										"style": null,
+										"textRows": 0,
+										"userControl": {
+											"type": "I",
+											"userControlId": "TextInputBox"
+										},
+										"visible": 4095,
+										"visualAttributeId": "VA_NUMCUENTADESITI_194827",
+										"width": null,
+										"widthComposite": "D"
+									},
+									{
+										"aggregate": null,
+										"aggregateId": null,
+										"attributeValidations": [
+										],
+										"colSpan": 1,
+										"componentInGrid": false,
+										"componentStyle": null,
+										"customEvents": [
+											{
+												"customEventId": "CEVA_010VA_VAIMAGEBUTTONNN_751827_162",
+												"customizationLayer": 0,
+												"customizationLayerDescription": "ECU",
+												"enabled": "T",
+												"eventActions": [
+													{
+														"actionArgs": [
+														],
+														"actionId": "CUSTOM",
+														"actionType": "CUSTOM"
+													}
+												],
+												"executionType": 7,
+												"filter": null,
+												"isEnabled": true,
+												"visualAttributeEventType": {
+													"availableExecutionType": 7,
+													"description": "Permite personalizar la acci\u00f3n a ejecutar de un command o de un ActionControl",
+													"eventId": 10,
+													"name": "ExecuteCommand"
+												}
+											}
+										],
+										"customizationLayer": 0,
+										"customizationLayerDescription": "ECU",
+										"enabled": 4095,
+										"entityQuery": "EN_CUENTADSE_217",
+										"imageId": "fa fa-search",
+										"include": 4095,
+										"isCustomized": false,
+										"maxRecords": null,
+										"name": "VA_VAIMAGEBUTTONNN_751827",
+										"options": 0,
+										"order": 2,
+										"queryId": "Q_CUENEESN_JN85",
+										"queryModule": "LMTAS",
+										"queryVersion": "1.0.0",
+										"responsiveLayouts": null,
+										"responsivity": false,
+										"sizeWidthComposite": null,
+										"style": null,
+										"userControl": {
+											"type": "A",
+											"userControlId": "ImageButton"
+										},
+										"visible": 4095,
+										"visualAttributeId": "VA_VAIMAGEBUTTONNN_751827",
+										"width": null,
+										"widthComposite": "D"
+									}
+								]
+							}
+						],
+						"isCustomized": false,
+						"layoutType": "GroupLayout",
+						"name": "GroupLayout2423",
+						"order": 1,
+						"style": null,
+						"visible": 4095
+					}
+				],
+				"id": {
+					"version": "1.0.0",
+					"viewId": "VW_TRANSFERUN_827"
+				},
+				"metadataVersion": "7.2.0.2020",
+				"modules": [
+					{
+						"moduleId": "LMTAS"
+					}
+				],
+				"name": "View of formTransferenciaCuenta"
+			}
+		}
+	]
+}

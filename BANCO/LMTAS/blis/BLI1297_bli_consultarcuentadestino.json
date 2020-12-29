@@ -1,0 +1,129 @@
+{
+	"databaseType": "Sybase",
+	"inputEntity": [
+	],
+	"inputParameters": [
+		{
+			"attributeId": "",
+			"bddType": "char",
+			"dataType": "CHAR",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@i_operacion",
+			"type": "CONSTANT",
+			"value": "S"
+		},
+		{
+			"attributeId": "",
+			"bddType": "int",
+			"dataType": "INT",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@t_trn",
+			"type": "CONSTANT",
+			"value": "20210"
+		},
+		{
+			"attributeId": "",
+			"bddType": "varchar",
+			"dataType": "VARCHAR",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@i_nro_cuenta",
+			"type": "CUSTOM",
+			"value": "numCuenta"
+		}
+	],
+	"name": "BLI_ConsultarCuentaDestino",
+	"outputEntity": [
+	],
+	"outputParameters": [
+	],
+	"patternId": "BLI1297_bli_consultarcuentadestino",
+	"patternName": "BLI_ConsultarCuentaDestino",
+	"patternType": "Bli",
+	"queries": [
+		{
+			"_idQuery": "5a75ce0f-801e-41f4-8653-0682d104f1d1",
+			"isMapReturn": true,
+			"isReturn": true,
+			"isSingleResult": false,
+			"numberQuery": 1,
+			"queryName": "SELECT"
+		}
+	],
+	"resultSets": [
+		{
+			"_idQuery": "5a75ce0f-801e-41f4-8653-0682d104f1d1",
+			"columns": [
+				{
+					"attributeId": "AT57_NUMERONN217",
+					"entityId": "EN_CUENTADSE_217",
+					"format": "",
+					"name": "Numero Cuenta",
+					"position": 1,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT92_SALDOJLF217",
+					"entityId": "EN_CUENTADSE_217",
+					"format": "",
+					"name": "Saldo",
+					"position": 2,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT40_CEDULANI217",
+					"entityId": "EN_CUENTADSE_217",
+					"format": "",
+					"name": "Cedula Cliente",
+					"position": 3,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT99_NOMBRENN217",
+					"entityId": "EN_CUENTADSE_217",
+					"format": "",
+					"name": "Nombre Cliente",
+					"position": 4,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT84_APELLIDO217",
+					"entityId": "EN_CUENTADSE_217",
+					"format": "",
+					"name": "Apellido Cliente",
+					"position": 5,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT54_TIPOCUEE217",
+					"entityId": "EN_CUENTADSE_217",
+					"format": "",
+					"name": "Tipo Cuenta",
+					"position": 6,
+					"type": "ATTRIBUTE"
+				}
+			],
+			"number": 1,
+			"singleResult": false
+		}
+	],
+	"returnEntity": [
+		{
+			"entityId": "EN_CUENTADSE_217",
+			"module": {
+				"moduleId": "LMTAS",
+				"moduleName": "CUENTA"
+			},
+			"name": "CuentaDestino"
+		}
+	],
+	"serverName": "CENTRAL",
+	"serviceID": "cobis.g2_sp_operaciones",
+	"type": "SP",
+	"typeMapping": "MAPJava"
+}
