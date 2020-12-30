@@ -22,6 +22,57 @@
 		{
 			"entities": {
 				"inputEntity": [
+					{
+						"entityId": "EN_TRANSFECA_577",
+						"moduleId": "LMTAS",
+						"related": false
+					}
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+				]
+			},
+			"idBli": "BLI1827_bli_transferenciacuenta",
+			"nameBli": "BLI_TransferenciaCuenta"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+					{
+						"entityId": "EN_CUENTAQAV_729",
+						"moduleId": "LMTAS",
+						"related": false
+					}
+				]
+			},
+			"idBli": "BLI2056_bli_consultarcuenta",
+			"nameBli": "BLI_ConsultarCuenta"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+					{
+						"entityId": "EN_RETIROQXN_659",
+						"moduleId": "LMTAS",
+						"related": false
+					}
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+				]
+			},
+			"idBli": "BLI4929_bli_retirarcuenta",
+			"nameBli": "BLI_RetirarCuenta"
+		},
+		{
+			"entities": {
+				"inputEntity": [
 				],
 				"outputEntity": [
 				],
@@ -52,6 +103,40 @@
 			},
 			"idBli": "BLI8593_bli_insert_corriente",
 			"nameBli": "BLI_insert_corriente"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+					{
+						"entityId": "EN_DEPOSITOO_355",
+						"moduleId": "LMTAS",
+						"related": false
+					}
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+				]
+			},
+			"idBli": "BLI9544_bli_depositarcuenta",
+			"nameBli": "BLI_DepositarCuenta"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+					{
+						"entityId": "EN_CUENTADSI_894",
+						"moduleId": "LMTAS",
+						"related": false
+					}
+				]
+			},
+			"idBli": "BLI9901_bli_consultarcuentadestino",
+			"nameBli": "BLI_ConsultarCuentaDestino"
 		}
 	]
 }

@@ -14,7 +14,23 @@
 			"labels": [
 			]
 		},
+		"EN_CUENTADSI_894": {
+			"labels": [
+			]
+		},
 		"EN_CUENTAQAV_729": {
+			"labels": [
+			]
+		},
+		"EN_DEPOSITOO_355": {
+			"labels": [
+			]
+		},
+		"EN_FILTROCAU_631": {
+			"labels": [
+			]
+		},
+		"EN_FILTROCIU_487": {
 			"labels": [
 			]
 		},
@@ -25,9 +41,152 @@
 		"EN_FILTROOAR_450": {
 			"labels": [
 			]
+		},
+		"EN_RETIROQXN_659": {
+			"labels": [
+			]
+		},
+		"EN_TRANSFECA_577": {
+			"labels": [
+			]
 		}
 	},
 	"Forms": {
+		"T_LMTASFRDKZNWQ_895": {
+			"blis": [
+				"BLI2056_bli_consultarcuenta",
+				"BLI4929_bli_retirarcuenta"
+			],
+			"entities": {
+				"EN_CUENTAQAV_729": [
+					"AT50_CEDULAIE729",
+					"AT52_NUMEROEE729",
+					"AT75_APELLINO729",
+					"AT75_NOMBREEE729",
+					"AT94_TIPOCUTE729",
+					"AT96_SALDOYWV729"
+				],
+				"EN_FILTROCAU_631": [
+					"AT55_NUMEROEC631"
+				],
+				"EN_RETIROQXN_659": [
+					"AT97_CANTIDAA659"
+				]
+			},
+			"externalEntities": {
+			},
+			"externalQueries": {
+			},
+			"header": [
+			],
+			"labels": [
+				"LBL_LMTAS_CANTIDART_78661",
+				"LBL_LMTAS_NUMEROCNT_36223"
+			],
+			"queries": {
+				"Q_CUENTAAT_MR83": [
+					"",
+					"",
+					"",
+					"",
+					"QM_CUENT3AT83873_01",
+					"QM_CUENT888M3314_06",
+					"QM_CUENTAMA3A158_03",
+					"QM_CUENTM33T3231_04",
+					"QM_CUENTMAAAA187_02",
+					"QM_CUENTT888A573_05"
+				]
+			},
+			"subForms": [
+			]
+		},
+		"T_LMTASMEBXEZAV_712": {
+			"blis": [
+				"BLI1827_bli_transferenciacuenta",
+				"BLI2056_bli_consultarcuenta",
+				"BLI9901_bli_consultarcuentadestino"
+			],
+			"entities": {
+				"EN_CUENTADSI_894": [
+					"AT38_NOMBRECC894",
+					"AT39_SALDOEWP894",
+					"AT54_CEDULATC894",
+					"AT61_NUMEROUT894",
+					"AT67_APELLIDE894",
+					"AT92_TIPOCUAN894"
+				],
+				"EN_CUENTAQAV_729": [
+					"AT50_CEDULAIE729",
+					"AT52_NUMEROEE729",
+					"AT75_APELLINO729",
+					"AT75_NOMBREEE729",
+					"AT94_TIPOCUTE729",
+					"AT96_SALDOYWV729"
+				],
+				"EN_FILTROCAU_631": [
+					"AT55_NUMEROEC631"
+				],
+				"EN_FILTROCIU_487": [
+					"AT99_NUMEROAE487"
+				],
+				"EN_TRANSFECA_577": [
+					"AT12_CANTIDDD577"
+				]
+			},
+			"externalEntities": {
+			},
+			"externalQueries": {
+			},
+			"header": [
+			],
+			"labels": [
+				"LBL_LMTAS_CUENTADNO_15296",
+				"LBL_LMTAS_CUENTAONI_19454",
+				"LBL_LMTAS_MONTOATER_49284"
+			],
+			"queries": {
+				"Q_CUENAIIO_UZ47": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"QM_CUENA44OIU552_03",
+					"QM_CUENA7IO47361_02",
+					"QM_CUENA7UOOO823_05",
+					"QM_CUENAIZUUZ719_06",
+					"QM_CUENAOOI77719_04",
+					"QM_CUENAZZUI7865_01",
+					"QM_CUENT3AT83873_01",
+					"QM_CUENT888M3314_06",
+					"QM_CUENTAMA3A158_03",
+					"QM_CUENTM33T3231_04",
+					"QM_CUENTMAAAA187_02",
+					"QM_CUENTT888A573_05"
+				],
+				"Q_CUENTAAT_MR83": [
+					"",
+					"",
+					"",
+					"",
+					"QM_CUENA44OIU552_03",
+					"QM_CUENA7IO47361_02",
+					"QM_CUENA7UOOO823_05",
+					"QM_CUENAIZUUZ719_06",
+					"QM_CUENAOOI77719_04",
+					"QM_CUENAZZUI7865_01",
+					"QM_CUENT3AT83873_01",
+					"QM_CUENT888M3314_06",
+					"QM_CUENTAMA3A158_03",
+					"QM_CUENTM33T3231_04",
+					"QM_CUENTMAAAA187_02",
+					"QM_CUENTT888A573_05"
+				]
+			},
+			"subForms": [
+			]
+		},
 		"T_LMTASOHHKEIFK_110": {
 			"blis": [
 				"BLI1630_bli_insert_ahorros",
@@ -75,6 +234,52 @@
 			},
 			"subForms": [
 			]
+		},
+		"T_LMTASQNUBCSFU_118": {
+			"blis": [
+				"BLI2056_bli_consultarcuenta",
+				"BLI9544_bli_depositarcuenta"
+			],
+			"entities": {
+				"EN_CUENTAQAV_729": [
+					"AT50_CEDULAIE729",
+					"AT52_NUMEROEE729",
+					"AT75_APELLINO729",
+					"AT75_NOMBREEE729",
+					"AT94_TIPOCUTE729",
+					"AT96_SALDOYWV729"
+				],
+				"EN_DEPOSITOO_355": [
+					"AT64_CANTIDDA355"
+				],
+				"EN_FILTROCAU_631": [
+					"AT55_NUMEROEC631"
+				]
+			},
+			"externalEntities": {
+			},
+			"externalQueries": {
+			},
+			"header": [
+			],
+			"labels": [
+				"LBL_LMTAS_CANTIDADE_28340",
+				"LBL_LMTAS_NUMEROCNT_36223"
+			],
+			"queries": {
+				"Q_CUENTAAT_MR83": [
+					"",
+					"",
+					"QM_CUENT3AT83873_01",
+					"QM_CUENT888M3314_06",
+					"QM_CUENTAMA3A158_03",
+					"QM_CUENTM33T3231_04",
+					"QM_CUENTMAAAA187_02",
+					"QM_CUENTT888A573_05"
+				]
+			},
+			"subForms": [
+			]
 		}
 	},
 	"Queries": {
@@ -83,6 +288,14 @@
 			]
 		},
 		"Q_CLIENETN_CO80": {
+			"labels": [
+			]
+		},
+		"Q_CUENAIIO_UZ47": {
+			"labels": [
+			]
+		},
+		"Q_CUENTAAT_MR83": {
 			"labels": [
 			]
 		}

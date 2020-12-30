@@ -1,0 +1,88 @@
+[
+	{
+		"attributeName": "",
+		"controlId": "Q_CUENTAAT_MR83",
+		"controlName": "CuentaQuery",
+		"controlType": "Query",
+		"customEvents": [
+			{
+				"eventName": "executeQuery",
+				"executionType": {
+					"$ref": "../../../../../LMTAS/ADMIN/queries/Q_CUENTAAT_MR83.json#/customEvents"
+				}
+			}
+		],
+		"entityName": "Cuenta",
+		"eventsType": "queryEventType"
+	},
+	{
+		"attributeName": "",
+		"controlId": "QV_FX83_ONY44",
+		"controlName": "QV_FX83_ONY44",
+		"controlType": "",
+		"customEvents": [
+			{
+				"eventName": "rowSelecting",
+				"executionType": 1
+			}
+		],
+		"entityName": "Cuenta",
+		"eventsType": "queryViewEventType"
+	},
+	{
+		"attributeName": "cantidad",
+		"controlId": "VA_CANTIDADFMNTACI_487304",
+		"controlName": "cantidad",
+		"controlType": "TextInputBox",
+		"customEvents": [
+			{
+				"eventName": "change",
+				"executionType": 1
+			}
+		],
+		"entityName": "Deposito",
+		"eventsType": "visualAttributeEventType"
+	},
+	{
+		"attributeName": "",
+		"controlId": "VA_VAIMAGEBUTTONNN_507304",
+		"controlName": "VA_VAIMAGEBUTTONNN_507304",
+		"controlType": "ImageButton",
+		"customEvents": [
+			{
+				"eventName": "executeCommand",
+				"executionType": 7
+			}
+		],
+		"entityName": "FiltroCuenta",
+		"eventsType": "visualAttributeEventType"
+	},
+	{
+		"attributeName": "",
+		"controlId": "VA_VAIMAGEBUTTONNN_941304",
+		"controlName": "VA_VAIMAGEBUTTONNN_941304",
+		"controlType": "ImageButton",
+		"customEvents": [
+			{
+				"eventName": "executeCommand",
+				"executionType": 7
+			}
+		],
+		"entityName": "Deposito",
+		"eventsType": "visualAttributeEventType"
+	},
+	{
+		"attributeName": "",
+		"controlId": "VC_DEPOSITOUA_746118",
+		"controlName": "",
+		"controlType": "",
+		"customEvents": [
+			{
+				"eventName": "render",
+				"executionType": 1
+			}
+		],
+		"entityName": "",
+		"eventsType": "viewContainerEventType"
+	}
+]

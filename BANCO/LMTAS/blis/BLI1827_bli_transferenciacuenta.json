@@ -1,0 +1,110 @@
+{
+	"databaseType": "Sybase",
+	"inputEntity": [
+		{
+			"entityId": "EN_TRANSFECA_577",
+			"module": {
+				"moduleId": "LMTAS",
+				"moduleName": "CUENTA"
+			},
+			"name": "Transferencia"
+		}
+	],
+	"inputParameters": [
+		{
+			"attributeId": "",
+			"bddType": "char",
+			"dataType": "CHAR",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@i_operacion",
+			"type": "CONSTANT",
+			"value": "T"
+		},
+		{
+			"attributeId": "",
+			"bddType": "int",
+			"dataType": "INT",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@t_trn",
+			"type": "CONSTANT",
+			"value": "20210"
+		},
+		{
+			"attributeId": "AT29_CUENTAEE577",
+			"bddType": "varchar",
+			"dataType": "VARCHAR",
+			"direction": "in",
+			"entityId": "EN_TRANSFECA_577",
+			"format": "",
+			"name": "@i_nro_cuenta",
+			"type": "ATTRIBUTE",
+			"value": ""
+		},
+		{
+			"attributeId": "AT35_CUENTAEE577",
+			"bddType": "varchar",
+			"dataType": "VARCHAR",
+			"direction": "in",
+			"entityId": "EN_TRANSFECA_577",
+			"format": "",
+			"name": "@i_nro_cuenta_destino",
+			"type": "ATTRIBUTE",
+			"value": ""
+		},
+		{
+			"attributeId": "AT12_CANTIDDD577",
+			"bddType": "decimal",
+			"dataType": "MONEY",
+			"direction": "in",
+			"entityId": "EN_TRANSFECA_577",
+			"format": "",
+			"name": "@i_cantidad",
+			"type": "ATTRIBUTE",
+			"value": ""
+		},
+		{
+			"attributeId": "AT92_TIPOCUNE577",
+			"bddType": "char",
+			"dataType": "CHAR",
+			"direction": "in",
+			"entityId": "EN_TRANSFECA_577",
+			"format": "",
+			"name": "@i_tipo_cuenta",
+			"type": "ATTRIBUTE",
+			"value": ""
+		},
+		{
+			"attributeId": "AT32_TIPOCUAT577",
+			"bddType": "char",
+			"dataType": "CHAR",
+			"direction": "in",
+			"entityId": "EN_TRANSFECA_577",
+			"format": "",
+			"name": "@i_tipo_cuenta_destino",
+			"type": "ATTRIBUTE",
+			"value": ""
+		}
+	],
+	"name": "BLI_TransferenciaCuenta",
+	"outputEntity": [
+	],
+	"outputParameters": [
+	],
+	"patternId": "BLI1827_bli_transferenciacuenta",
+	"patternName": "BLI_TransferenciaCuenta",
+	"patternType": "Bli",
+	"queries": [
+	],
+	"resultSets": [
+	],
+	"returnEntity": [
+	],
+	"serverName": "CENTRAL",
+	"serviceID": "cobis.g2_sp_operaciones",
+	"type": "SP",
+	"typeMapping": "MAPJava"
+}

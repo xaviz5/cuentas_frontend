@@ -7,9 +7,41 @@
 				{
 					"generated": 2,
 					"moduleId": "LMTAS",
+					"moduleName": "CUENTA",
+					"name": "formRetiroCuenta",
+					"subModuleId": "ADMIN",
+					"subModuleName": "ADMIN",
+					"taskId": "T_LMTASFRDKZNWQ_895",
+					"type": "Simple form"
+				},
+				{
+					"generated": 2,
+					"moduleId": "LMTAS",
+					"moduleName": "CUENTA",
+					"name": "formTransferenciaCuenta",
+					"subModuleId": "ADMIN",
+					"subModuleName": "ADMIN",
+					"taskId": "T_LMTASMEBXEZAV_712",
+					"type": "Simple form"
+				},
+				{
+					"generated": 2,
+					"moduleId": "LMTAS",
+					"moduleName": "CUENTA",
 					"name": "formConsultarCliente",
 					"subModuleId": "ADMIN",
+					"subModuleName": "ADMIN",
 					"taskId": "T_LMTASOHHKEIFK_110",
+					"type": "Simple form"
+				},
+				{
+					"generated": 0,
+					"moduleId": "LMTAS",
+					"moduleName": "CUENTA",
+					"name": "formDepositoCuenta",
+					"subModuleId": "ADMIN",
+					"subModuleName": "ADMIN",
+					"taskId": "T_LMTASQNUBCSFU_118",
 					"type": "Simple form"
 				}
 			]

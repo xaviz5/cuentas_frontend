@@ -1,0 +1,88 @@
+{
+	"databaseType": "Sybase",
+	"inputEntity": [
+		{
+			"entityId": "EN_DEPOSITOO_355",
+			"module": {
+				"moduleId": "LMTAS",
+				"moduleName": "CUENTA"
+			},
+			"name": "Deposito"
+		}
+	],
+	"inputParameters": [
+		{
+			"attributeId": "",
+			"bddType": "char",
+			"dataType": "CHAR",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@i_operacion",
+			"type": "CONSTANT",
+			"value": "C"
+		},
+		{
+			"attributeId": "",
+			"bddType": "int",
+			"dataType": "INT",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@t_trn",
+			"type": "CONSTANT",
+			"value": "20210"
+		},
+		{
+			"attributeId": "AT80_NUMEROUC355",
+			"bddType": "varchar",
+			"dataType": "VARCHAR",
+			"direction": "in",
+			"entityId": "EN_DEPOSITOO_355",
+			"format": "",
+			"name": "@i_nro_cuenta",
+			"type": "ATTRIBUTE",
+			"value": ""
+		},
+		{
+			"attributeId": "AT64_CANTIDDA355",
+			"bddType": "decimal",
+			"dataType": "MONEY",
+			"direction": "in",
+			"entityId": "EN_DEPOSITOO_355",
+			"format": "",
+			"name": "@i_cantidad",
+			"type": "ATTRIBUTE",
+			"value": ""
+		},
+		{
+			"attributeId": "AT96_TIPOCUAE355",
+			"bddType": "char",
+			"dataType": "CHAR",
+			"direction": "in",
+			"entityId": "EN_DEPOSITOO_355",
+			"format": "",
+			"name": "@i_tipo_cuenta",
+			"type": "ATTRIBUTE",
+			"value": ""
+		}
+	],
+	"name": "BLI_DepositarCuenta",
+	"outputEntity": [
+	],
+	"outputParameters": [
+	],
+	"patternId": "BLI9544_bli_depositarcuenta",
+	"patternName": "BLI_DepositarCuenta",
+	"patternType": "Bli",
+	"queries": [
+	],
+	"resultSets": [
+	],
+	"returnEntity": [
+	],
+	"serverName": "CENTRAL",
+	"serviceID": "cobis.g2_sp_operaciones",
+	"type": "SP",
+	"typeMapping": "MAPJava"
+}

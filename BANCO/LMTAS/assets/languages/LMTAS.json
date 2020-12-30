@@ -1,13 +1,21 @@
 {
 	"LMTAS": {
 		"LBL": {
+			"LBL_LMTAS_CANTIDADE_28340": "Cantidad a Depositar:",
+			"LBL_LMTAS_CANTIDART_78661": "Cantidad a Retirar:",
 			"LBL_LMTAS_CODIGOCEE_66259": "Codigo cliente",
 			"LBL_LMTAS_CREARCUAT_48009": "Crear cuenta de ahorros",
 			"LBL_LMTAS_CREARCUNT_30250": "Crear cuenta",
 			"LBL_LMTAS_CREARCURT_32412": "Crear cuenta corriente",
+			"LBL_LMTAS_CUENTADNO_15296": "Cuenta Destino:",
+			"LBL_LMTAS_CUENTAONG_30923": "Cuenta Origen",
+			"LBL_LMTAS_CUENTAONI_19454": "Cuenta Origen:",
 			"LBL_LMTAS_IDXSJREXP_90783": "id",
 			"LBL_LMTAS_INGRESEDC_40413": "Ingrese cedula",
+			"LBL_LMTAS_MONTOATER_49284": "Monto a Transferir:",
 			"LBL_LMTAS_NOMBRETHS_64544": "nombre",
+			"LBL_LMTAS_NUMEROCEN_73399": "Numero de Cuen",
+			"LBL_LMTAS_NUMEROCNT_36223": "Numero de Cuenta:",
 			"LBL_LMTAS_SALDOINIA_28635": "Saldo inicial",
 			"LBL_LMTAS_SELECCIAT_14730": "Seleccione el tipo de cuenta",
 			"LBL_LMTAS_TIPOCUEAA_10036": "Tipo de cuenta"

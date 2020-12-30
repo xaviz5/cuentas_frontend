@@ -1,0 +1,104 @@
+[
+	{
+		"attributeName": "",
+		"controlId": "Q_CUENAIIO_UZ47",
+		"controlName": "CuentaDestinoQuery",
+		"controlType": "Query",
+		"customEvents": [
+			{
+				"eventName": "executeQuery",
+				"executionType": {
+					"$ref": "../../../../../LMTAS/ADMIN/queries/Q_CUENAIIO_UZ47.json#/customEvents"
+				}
+			}
+		],
+		"entityName": "CuentaDestino",
+		"eventsType": "queryEventType"
+	},
+	{
+		"attributeName": "",
+		"controlId": "Q_CUENTAAT_MR83",
+		"controlName": "CuentaQuery",
+		"controlType": "Query",
+		"customEvents": [
+			{
+				"eventName": "executeQuery",
+				"executionType": {
+					"$ref": "../../../../../LMTAS/ADMIN/queries/Q_CUENTAAT_MR83.json#/customEvents"
+				}
+			}
+		],
+		"entityName": "Cuenta",
+		"eventsType": "queryEventType"
+	},
+	{
+		"attributeName": "cantidad",
+		"controlId": "VA_CANTIDADENSMJMI_254526",
+		"controlName": "cantidad",
+		"controlType": "TextInputBox",
+		"customEvents": [
+			{
+				"eventName": "change",
+				"executionType": 1
+			}
+		],
+		"entityName": "Transferencia",
+		"eventsType": "visualAttributeEventType"
+	},
+	{
+		"attributeName": "",
+		"controlId": "VA_VAIMAGEBUTTONNN_351526",
+		"controlName": "VA_VAIMAGEBUTTONNN_351526",
+		"controlType": "ImageButton",
+		"customEvents": [
+			{
+				"eventName": "executeCommand",
+				"executionType": 7
+			}
+		],
+		"entityName": "FiltroCuentaDestino",
+		"eventsType": "visualAttributeEventType"
+	},
+	{
+		"attributeName": "",
+		"controlId": "VA_VAIMAGEBUTTONNN_828526",
+		"controlName": "VA_VAIMAGEBUTTONNN_828526",
+		"controlType": "ImageButton",
+		"customEvents": [
+			{
+				"eventName": "executeCommand",
+				"executionType": 7
+			}
+		],
+		"entityName": "FiltroCuenta",
+		"eventsType": "visualAttributeEventType"
+	},
+	{
+		"attributeName": "",
+		"controlId": "VA_VAIMAGEBUTTONNN_869526",
+		"controlName": "VA_VAIMAGEBUTTONNN_869526",
+		"controlType": "ImageButton",
+		"customEvents": [
+			{
+				"eventName": "executeCommand",
+				"executionType": 7
+			}
+		],
+		"entityName": "Transferencia",
+		"eventsType": "visualAttributeEventType"
+	},
+	{
+		"attributeName": "",
+		"controlId": "VC_TRANSFERTI_778712",
+		"controlName": "",
+		"controlType": "",
+		"customEvents": [
+			{
+				"eventName": "render",
+				"executionType": 1
+			}
+		],
+		"entityName": "",
+		"eventsType": "viewContainerEventType"
+	}
+]

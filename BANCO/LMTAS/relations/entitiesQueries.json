@@ -5,5 +5,19 @@
 				"$ref": "../ADMIN/queries/Q_CLIEETTE_RL85.json#"
 			}
 		}
+	},
+	"EN_CUENTADSI_894": {
+		"queries": {
+			"Q_CUENAIIO_UZ47": {
+				"$ref": "../ADMIN/queries/Q_CUENAIIO_UZ47.json#"
+			}
+		}
+	},
+	"EN_CUENTAQAV_729": {
+		"queries": {
+			"Q_CUENTAAT_MR83": {
+				"$ref": "../ADMIN/queries/Q_CUENTAAT_MR83.json#"
+			}
+		}
 	}
 }

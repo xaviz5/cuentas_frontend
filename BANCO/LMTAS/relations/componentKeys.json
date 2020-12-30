@@ -3,13 +3,28 @@
 		"CompositeForms": {
 		},
 		"Forms": {
+			"T_LMTASFRDKZNWQ_895": {
+				"name": "formRetiroCuenta"
+			},
+			"T_LMTASMEBXEZAV_712": {
+				"name": "formTransferenciaCuenta"
+			},
 			"T_LMTASOHHKEIFK_110": {
 				"name": "formConsultarCliente"
+			},
+			"T_LMTASQNUBCSFU_118": {
+				"name": "formDepositoCuenta"
 			}
 		},
 		"Queries": {
 			"Q_CLIEETTE_RL85": {
 				"name": "ClienteQuery"
+			},
+			"Q_CUENAIIO_UZ47": {
+				"name": "CuentaDestinoQuery"
+			},
+			"Q_CUENTAAT_MR83": {
+				"name": "CuentaQuery"
 			}
 		}
 	},
@@ -20,11 +35,29 @@
 		"EN_CLIENTEFB_345": {
 			"name": "Cliente"
 		},
+		"EN_CUENTADSI_894": {
+			"name": "CuentaDestino"
+		},
 		"EN_CUENTAQAV_729": {
 			"name": "Cuenta"
 		},
+		"EN_DEPOSITOO_355": {
+			"name": "Deposito"
+		},
+		"EN_FILTROCAU_631": {
+			"name": "FiltroCuenta"
+		},
+		"EN_FILTROCIU_487": {
+			"name": "FiltroCuentaDestino"
+		},
 		"EN_FILTROOAR_450": {
 			"name": "Filtro"
+		},
+		"EN_RETIROQXN_659": {
+			"name": "Retiro"
+		},
+		"EN_TRANSFECA_577": {
+			"name": "Transferencia"
 		}
 	}
 }

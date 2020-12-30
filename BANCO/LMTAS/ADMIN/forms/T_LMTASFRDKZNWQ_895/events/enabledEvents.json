@@ -1,0 +1,88 @@
+[
+	{
+		"attributeName": "",
+		"controlId": "Q_CUENTAAT_MR83",
+		"controlName": "CuentaQuery",
+		"controlType": "Query",
+		"customEvents": [
+			{
+				"eventName": "executeQuery",
+				"executionType": {
+					"$ref": "../../../../../LMTAS/ADMIN/queries/Q_CUENTAAT_MR83.json#/customEvents"
+				}
+			}
+		],
+		"entityName": "Cuenta",
+		"eventsType": "queryEventType"
+	},
+	{
+		"attributeName": "",
+		"controlId": "QV_UU83_BFD68",
+		"controlName": "QV_UU83_BFD68",
+		"controlType": "",
+		"customEvents": [
+			{
+				"eventName": "rowSelecting",
+				"executionType": 1
+			}
+		],
+		"entityName": "Cuenta",
+		"eventsType": "queryViewEventType"
+	},
+	{
+		"attributeName": "cantidad",
+		"controlId": "VA_CANTIDADDHIOCRO_697863",
+		"controlName": "cantidad",
+		"controlType": "TextInputBox",
+		"customEvents": [
+			{
+				"eventName": "change",
+				"executionType": 1
+			}
+		],
+		"entityName": "Retiro",
+		"eventsType": "visualAttributeEventType"
+	},
+	{
+		"attributeName": "",
+		"controlId": "VA_VAIMAGEBUTTONNN_507863",
+		"controlName": "VA_VAIMAGEBUTTONNN_507863",
+		"controlType": "ImageButton",
+		"customEvents": [
+			{
+				"eventName": "executeCommand",
+				"executionType": 7
+			}
+		],
+		"entityName": "Retiro",
+		"eventsType": "visualAttributeEventType"
+	},
+	{
+		"attributeName": "",
+		"controlId": "VA_VAIMAGEBUTTONNN_972863",
+		"controlName": "VA_VAIMAGEBUTTONNN_972863",
+		"controlType": "ImageButton",
+		"customEvents": [
+			{
+				"eventName": "executeCommand",
+				"executionType": 7
+			}
+		],
+		"entityName": "FiltroCuenta",
+		"eventsType": "visualAttributeEventType"
+	},
+	{
+		"attributeName": "",
+		"controlId": "VC_RETIROCUEN_326895",
+		"controlName": "",
+		"controlType": "",
+		"customEvents": [
+			{
+				"eventName": "render",
+				"executionType": 1
+			}
+		],
+		"entityName": "",
+		"eventsType": "viewContainerEventType"
+	}
+]

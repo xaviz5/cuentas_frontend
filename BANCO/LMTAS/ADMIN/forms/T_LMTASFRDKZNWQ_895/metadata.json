@@ -1,0 +1,30 @@
+{
+	"entities": [
+		{
+			"entityId": "EN_CUENTAQAV_729",
+			"isContextEntity": null,
+			"moduleId": "LMTAS",
+			"related": false
+		},
+		{
+			"entityId": "EN_FILTROCAU_631",
+			"isContextEntity": null,
+			"moduleId": "LMTAS",
+			"related": false
+		},
+		{
+			"entityId": "EN_RETIROQXN_659",
+			"isContextEntity": null,
+			"moduleId": "LMTAS",
+			"related": false
+		}
+	],
+	"queries": [
+		{
+			"moduleId": "LMTAS",
+			"queryId": "Q_CUENTAAT_MR83",
+			"related": false,
+			"subModuleId": "ADMIN"
+		}
+	]
+}
