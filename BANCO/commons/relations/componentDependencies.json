@@ -46,12 +46,54 @@
 			"labels": [
 			]
 		},
+		"EN_TRANSACIO_204": {
+			"labels": [
+			]
+		},
 		"EN_TRANSFECA_577": {
 			"labels": [
 			]
 		}
 	},
 	"Forms": {
+		"T_LMTASAITGNRJQ_232": {
+			"blis": [
+			],
+			"entities": {
+				"EN_FILTROCAU_631": [
+					"AT55_NUMEROEC631"
+				],
+				"EN_TRANSACIO_204": [
+					"AT80_FECHAHWD204",
+					"AT82_IDTRANSI204",
+					"AT94_NUMEROTC204",
+					"AT96_TIPOTRIC204",
+					"AT97_TIPOCUEN204"
+				]
+			},
+			"externalEntities": {
+			},
+			"externalQueries": {
+			},
+			"header": [
+			],
+			"labels": [
+				"LBL_LMTAS_NUMEROCEN_82831"
+			],
+			"queries": {
+				"Q_TRANCNSC_DO97": [
+					"",
+					"",
+					"QM_TRANC7D79S462_04",
+					"QM_TRANC9NOOC830_05",
+					"QM_TRANCNO7OO867_01",
+					"QM_TRANCO9DOO672_02",
+					"QM_TRANCOSSDC371_03"
+				]
+			},
+			"subForms": [
+			]
+		},
 		"T_LMTASFRDKZNWQ_895": {
 			"blis": [
 				"BLI2056_bli_consultarcuenta",
@@ -296,6 +338,10 @@
 			]
 		},
 		"Q_CUENTAAT_MR83": {
+			"labels": [
+			]
+		},
+		"Q_TRANCNSC_DO97": {
 			"labels": [
 			]
 		}

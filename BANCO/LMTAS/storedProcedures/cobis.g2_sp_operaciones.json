@@ -114,6 +114,18 @@
 				],
 				"editMode": true,
 				"queryText": "SELECT"
+			},
+			{
+				"_idQuery": "256c7eff-b0ce-462f-93bb-c2eb466b4dd8",
+				"columns": [
+					"IDTransaccion",
+					"Fecha",
+					"Numero Cuenta",
+					"Tipo Transaccion",
+					"Tipo Cuenta"
+				],
+				"editMode": true,
+				"queryText": "SELECT"
 			}
 		],
 		"variables": [

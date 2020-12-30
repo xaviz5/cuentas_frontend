@@ -3,6 +3,9 @@
 		"CompositeForms": {
 		},
 		"Forms": {
+			"T_LMTASAITGNRJQ_232": {
+				"name": "formConsultaTransacciones"
+			},
 			"T_LMTASFRDKZNWQ_895": {
 				"name": "formRetiroCuenta"
 			},
@@ -25,6 +28,9 @@
 			},
 			"Q_CUENTAAT_MR83": {
 				"name": "CuentaQuery"
+			},
+			"Q_TRANCNSC_DO97": {
+				"name": "TransaccionQuery"
 			}
 		}
 	},
@@ -55,6 +61,9 @@
 		},
 		"EN_RETIROQXN_659": {
 			"name": "Retiro"
+		},
+		"EN_TRANSACIO_204": {
+			"name": "Transaccion"
 		},
 		"EN_TRANSFECA_577": {
 			"name": "Transferencia"

@@ -5,42 +5,42 @@
 		"forms": {
 			"LMTAS": [
 				{
-					"generated": 2,
+					"generated": 4,
 					"moduleId": "LMTAS",
-					"moduleName": "CUENTA",
+					"name": "formConsultaTransacciones",
+					"subModuleId": "ADMIN",
+					"taskId": "T_LMTASAITGNRJQ_232",
+					"type": "Simple form"
+				},
+				{
+					"generated": 4,
+					"moduleId": "LMTAS",
 					"name": "formRetiroCuenta",
 					"subModuleId": "ADMIN",
-					"subModuleName": "ADMIN",
 					"taskId": "T_LMTASFRDKZNWQ_895",
 					"type": "Simple form"
 				},
 				{
-					"generated": 2,
+					"generated": 4,
 					"moduleId": "LMTAS",
-					"moduleName": "CUENTA",
 					"name": "formTransferenciaCuenta",
 					"subModuleId": "ADMIN",
-					"subModuleName": "ADMIN",
 					"taskId": "T_LMTASMEBXEZAV_712",
 					"type": "Simple form"
 				},
 				{
-					"generated": 2,
+					"generated": 4,
 					"moduleId": "LMTAS",
-					"moduleName": "CUENTA",
 					"name": "formConsultarCliente",
 					"subModuleId": "ADMIN",
-					"subModuleName": "ADMIN",
 					"taskId": "T_LMTASOHHKEIFK_110",
 					"type": "Simple form"
 				},
 				{
-					"generated": 0,
+					"generated": 4,
 					"moduleId": "LMTAS",
-					"moduleName": "CUENTA",
 					"name": "formDepositoCuenta",
 					"subModuleId": "ADMIN",
-					"subModuleName": "ADMIN",
 					"taskId": "T_LMTASQNUBCSFU_118",
 					"type": "Simple form"
 				}

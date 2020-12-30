@@ -1,0 +1,160 @@
+{
+	"customEvents": [
+		{
+			"customEventId": "CEQY_130_Q_TRANCNSC_DO97_394",
+			"customizationLayer": 0,
+			"customizationLayerDescription": "ECU",
+			"enabled": "T",
+			"eventActions": [
+				{
+					"actionArgs": [
+					],
+					"actionId": "CUSTOM",
+					"actionType": "CUSTOM"
+				}
+			],
+			"executionType": 7,
+			"queryEventType": {
+				"availableExecutionType": 7,
+				"description": "Sobreescribe la ejecuci\u00f3n de un Query",
+				"eventId": 130,
+				"name": "ExecuteQuery"
+			}
+		}
+	],
+	"customizationLayer": 0,
+	"customizationLayerDescription": "ECU",
+	"hasEvents": true,
+	"id": {
+		"queryId": "Q_TRANCNSC_DO97",
+		"version": "1.0.0"
+	},
+	"isAutomatic": false,
+	"isImported": false,
+	"mainEntityId": "EN_TRANSACIO_204",
+	"mainEntityModule": "LMTAS",
+	"mainEntityName": {
+		"$ref": "../../../LMTAS/relations/componentKeys.json#/Entities/EN_TRANSACIO_204/name"
+	},
+	"mainEntityVersion": "1.0.0",
+	"name": {
+		"$ref": "../../../LMTAS/relations/componentKeys.json#/ADMIN/Queries/Q_TRANCNSC_DO97/name"
+	},
+	"queryMembers": [
+		{
+			"alias": "tipoTransaccion",
+			"attribute": {
+				"$ref": "../../../LMTAS/entities/EN_TRANSACIO_204.json#/attributes/AT96_TIPOTRIC204"
+			},
+			"attributeQuery": "tipoTransaccion",
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 4,
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_TRANC7D79S462_04",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		},
+		{
+			"alias": "tipoCuenta",
+			"attribute": {
+				"$ref": "../../../LMTAS/entities/EN_TRANSACIO_204.json#/attributes/AT97_TIPOCUEN204"
+			},
+			"attributeQuery": "tipoCuenta",
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 5,
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_TRANC9NOOC830_05",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		},
+		{
+			"alias": "idTransaccion",
+			"attribute": {
+				"$ref": "../../../LMTAS/entities/EN_TRANSACIO_204.json#/attributes/AT82_IDTRANSI204"
+			},
+			"attributeQuery": "idTransaccion",
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 1,
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_TRANCNO7OO867_01",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		},
+		{
+			"alias": "fecha",
+			"attribute": {
+				"$ref": "../../../LMTAS/entities/EN_TRANSACIO_204.json#/attributes/AT80_FECHAHWD204"
+			},
+			"attributeQuery": "fecha",
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 2,
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_TRANCO9DOO672_02",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		},
+		{
+			"alias": "numeroCuenta",
+			"attribute": {
+				"$ref": "../../../LMTAS/entities/EN_TRANSACIO_204.json#/attributes/AT94_NUMEROTC204"
+			},
+			"attributeQuery": "numeroCuenta",
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 3,
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_TRANCOSSDC371_03",
+			"select": true,
+			"selectStr": "T",
+			"where": true,
+			"whereStr": "T"
+		}
+	],
+	"related": false,
+	"sqlWhere": null,
+	"subModules": [
+		{
+			"id": {
+				"moduleId": "LMTAS",
+				"subModuleId": "ADMIN"
+			}
+		}
+	]
+}

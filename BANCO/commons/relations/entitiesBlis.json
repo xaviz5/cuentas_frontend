@@ -78,6 +78,23 @@
 				],
 				"returnEntity": [
 					{
+						"entityId": "EN_TRANSACIO_204",
+						"moduleId": "LMTAS",
+						"related": false
+					}
+				]
+			},
+			"idBli": "BLI5209_bli_consultartransacciones",
+			"nameBli": "BLI_ConsultarTransacciones"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+					{
 						"entityId": "EN_CLIENTEFB_345",
 						"moduleId": "LMTAS",
 						"related": false

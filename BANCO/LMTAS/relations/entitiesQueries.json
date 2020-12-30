@@ -19,5 +19,12 @@
 				"$ref": "../ADMIN/queries/Q_CUENTAAT_MR83.json#"
 			}
 		}
+	},
+	"EN_TRANSACIO_204": {
+		"queries": {
+			"Q_TRANCNSC_DO97": {
+				"$ref": "../ADMIN/queries/Q_TRANCNSC_DO97.json#"
+			}
+		}
 	}
 }

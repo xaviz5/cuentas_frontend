@@ -1,0 +1,32 @@
+[
+	{
+		"attributeName": "",
+		"controlId": "Q_TRANCNSC_DO97",
+		"controlName": "TransaccionQuery",
+		"controlType": "Query",
+		"customEvents": [
+			{
+				"eventName": "executeQuery",
+				"executionType": {
+					"$ref": "../../../../../LMTAS/ADMIN/queries/Q_TRANCNSC_DO97.json#/customEvents"
+				}
+			}
+		],
+		"entityName": "Transaccion",
+		"eventsType": "queryEventType"
+	},
+	{
+		"attributeName": "",
+		"controlId": "VA_VAIMAGEBUTTONNN_158633",
+		"controlName": "VA_VAIMAGEBUTTONNN_158633",
+		"controlType": "ImageButton",
+		"customEvents": [
+			{
+				"eventName": "executeCommand",
+				"executionType": 7
+			}
+		],
+		"entityName": "FiltroCuenta",
+		"eventsType": "visualAttributeEventType"
+	}
+]

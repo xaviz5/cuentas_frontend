@@ -1,0 +1,121 @@
+{
+	"databaseType": "Sybase",
+	"inputEntity": [
+	],
+	"inputParameters": [
+		{
+			"attributeId": "",
+			"bddType": "char",
+			"dataType": "CHAR",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@i_operacion",
+			"type": "CONSTANT",
+			"value": "Q"
+		},
+		{
+			"attributeId": "",
+			"bddType": "int",
+			"dataType": "INT",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@t_trn",
+			"type": "CONSTANT",
+			"value": "20210"
+		},
+		{
+			"attributeId": "",
+			"bddType": "varchar",
+			"dataType": "VARCHAR",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@i_nro_cuenta",
+			"type": "CUSTOM",
+			"value": "numCuenta"
+		}
+	],
+	"name": "BLI_ConsultarTransacciones",
+	"outputEntity": [
+	],
+	"outputParameters": [
+	],
+	"patternId": "BLI5209_bli_consultartransacciones",
+	"patternName": "BLI_ConsultarTransacciones",
+	"patternType": "Bli",
+	"queries": [
+		{
+			"_idQuery": "256c7eff-b0ce-462f-93bb-c2eb466b4dd8",
+			"isMapReturn": true,
+			"isReturn": true,
+			"isSingleResult": false,
+			"numberQuery": 2,
+			"queryName": "SELECT"
+		}
+	],
+	"resultSets": [
+		{
+			"_idQuery": "256c7eff-b0ce-462f-93bb-c2eb466b4dd8",
+			"columns": [
+				{
+					"attributeId": "AT82_IDTRANSI204",
+					"entityId": "EN_TRANSACIO_204",
+					"format": "",
+					"name": "IDTransaccion",
+					"position": 1,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT80_FECHAHWD204",
+					"entityId": "EN_TRANSACIO_204",
+					"format": "",
+					"name": "Fecha",
+					"position": 2,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT94_NUMEROTC204",
+					"entityId": "EN_TRANSACIO_204",
+					"format": "",
+					"name": "Numero Cuenta",
+					"position": 3,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT96_TIPOTRIC204",
+					"entityId": "EN_TRANSACIO_204",
+					"format": "",
+					"name": "Tipo Transaccion",
+					"position": 4,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT97_TIPOCUEN204",
+					"entityId": "EN_TRANSACIO_204",
+					"format": "",
+					"name": "Tipo Cuenta",
+					"position": 5,
+					"type": "ATTRIBUTE"
+				}
+			],
+			"number": 1,
+			"singleResult": false
+		}
+	],
+	"returnEntity": [
+		{
+			"entityId": "EN_TRANSACIO_204",
+			"module": {
+				"moduleId": "LMTAS",
+				"moduleName": "CUENTA"
+			},
+			"name": "Transaccion"
+		}
+	],
+	"serverName": "CENTRAL",
+	"serviceID": "cobis.g2_sp_operaciones",
+	"type": "SP",
+	"typeMapping": "MAPJava"
+}
